@@ -1,0 +1,177 @@
+#discography-slide.current-slides {
+  top: 0;
+  left: 0;
+  box-shadow: none;
+  height: 100vh;
+  width: 100vw;
+  background-color: white; //default set in app scss.
+  color: rgb(40, 54, 83);
+  z-index: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#discography-slide {
+  opacity: 1; //Override the .slides opacity setting.
+
+  > * {
+    opacity: 1 !important; //Override the .slides opacity setting.
+  }
+
+  > h1 {
+    height: 25vh;
+    width: 90%;
+  }
+
+  #project-cards-container {
+    position: absolute;
+    left: 0;
+    top: 25vh;
+    width: 100vw;
+    height: 100vh;
+    //border: 1px solid;
+
+    > div:first-child {
+      flex-wrap: wrap;
+      overflow-x: scroll;
+      padding: 0 7vw;
+      //border: 1px solid goldenrod;
+      width: 100%;
+      height: 100%;
+    
+      .project-card {
+        border: none;
+        background-color: inherit;
+        color: rgb(40, 54, 83);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        //max-height: 40%;
+        width: 80vw;
+        padding: 10px;
+        box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+    
+        img {
+          width: 100%;
+          object-fit: contain;
+          object-position: top center;
+          margin-bottom: 10px;
+        }
+      }
+    
+      > :first-child { //First product card.
+        margin-top: 10vh;
+        margin-right: 30vw;
+        margin-bottom: 10vh;
+        //width: 80vw;
+        max-height: 80vh;
+  
+        img {
+          max-height: initial;
+          margin-bottom: 0;
+          object-fit: cover;
+        }
+  
+        .polaroid-bezel {
+          box-shadow: 0 0 30px 10px rgb(255, 255, 255);
+          width: 150%; //This is for the shadow to cover the full width of the card. Card has overflow hidden.
+          z-index: 2;
+          overflow: visible;
+
+          > * {
+            width: 30vw;
+            padding: 0 10px;
+          }
+        }
+      }
+
+      > :nth-child(2) {
+        margin-right: 20vw;
+        margin-bottom: 20vh;
+      }
+
+      > :nth-child(3) {
+        font-size: inherit;
+      }
+
+      > .scroll-padding {
+        width: 50px;
+        height: 100vh;
+      }
+    }
+
+    .scroll {
+      position: absolute;
+      right: 0;
+      bottom: 10px;
+      width: 100px;
+      justify-content: space-between;
+      align-items: flex-end;
+      animation: scroll-text 1.5s ease-in 0s infinite alternate none;
+    }
+
+    .scroll > span {
+      display: block;
+      margin-right: 5px;
+    }
+  
+    .scroll:after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 1px;
+      background: #000;
+      animation: scroll-line 1.5s ease-out 0s infinite alternate none;
+    }
+  }
+}
+
+@keyframes scroll-text {
+  from {
+    right: 0;
+  }
+  to {
+    right: -55px;
+  }
+}
+
+@keyframes scroll-line {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  #discography-slide {
+    #project-cards-container {
+      height: 150vh;
+    
+      > div:first-child {
+        //overflow-x: hidden;
+      
+        .project-card {
+          box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.6);
+          width: 30vw;
+        }
+
+        > :first-child {
+          margin-right: 10vw;
+        }
+
+        > .scroll-padding {
+          display: none;
+        }
+      }
+
+      > .scroll {
+        display: none;
+      }
+    }
+  }
+}
+

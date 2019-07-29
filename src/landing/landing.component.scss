@@ -1,0 +1,153 @@
+#landing-section {
+  top: 12vh;
+  height: 83vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  > h1 {
+    margin-top: -5vh;
+  }
+
+  #landing-top-cutout {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: calc(55px + .5vw);
+    width: calc((55px + .5vw) * 2);
+    transform: translateX(-50%);
+    border-radius: 0% 0% 50% 50% / 0% 0% 100% 100%;
+    margin-bottom: 5px;
+    background-color: rgb(16, 37, 63);
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, .6) inset;
+    
+    > span {
+      position: absolute;
+      top: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 30px;
+      width: 90%;
+      background-color: rgb(16, 37, 63);
+      border-radius: 0% 0% 15px 15px / 0% 0% 15px 15px;
+    }
+  }
+  
+  #app-dp {
+    position: fixed;
+    display: block;
+    height: calc(80px + 1vw);
+    top: calc(12vh - (80px + 1vw)/2); /*make the top half of the img overflow.*/
+    left: 50vw;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, .6);
+  }
+
+  #app-dp+small {
+    display: block;
+    border-left: 10px solid goldenrod;
+    padding: 5px 10px;
+    margin-top: 65px;
+    margin-bottom: 20px;
+    background-color: rgba(218, 165, 32, 0.15);
+  }
+
+  #skills-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    //outline: invert(green) solid 1px;
+    padding-bottom: 2vh;
+    width: 100%;
+    
+    > div {
+      display: flex;
+      justify-content: space-around;
+      //outline: goldenrod solid 1px;
+      
+      > span {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+  
+        > span {
+          display: none;
+        }
+  
+        > img {
+          color: goldenrod;
+          height: 1.2em;
+          //margin: 5px;
+        }
+      }
+    }
+    
+    > div:first-child {
+  
+      > span {
+        flex-direction: column-reverse;
+      }
+    }
+  
+    > div:nth-child(2) {
+      justify-content: space-between;
+      //border: 1px solid black;
+  
+      > span {
+        position: relative;
+        flex-direction: row-reverse;
+  
+        > span {
+          position: absolute;
+          bottom: calc(100% + 5px);
+          writing-mode: vertical-lr;
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+
+  address {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: .6 !important;
+  
+    img {
+      display: block; //Prevent from being affected by font-size / line-height.
+      height: 2vh;
+      margin: 5px;
+    }
+  
+    > #contact-infos {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      max-width: calc(50% - 65px); //Prevent encroaching into the app-dp.
+      flex-wrap: wrap;
+      padding-left: 10px;
+    }
+  
+    > #profile-links {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      max-width: calc(50% - 65px); //Prevent encroaching into the app-dp.
+      flex-wrap: wrap;
+      padding-right: 10px;
+    }
+  }    
+
+}
+
+#landing-section.previous-slides > #app-dp {
+  z-index: -1;
+}
