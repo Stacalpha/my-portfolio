@@ -26,56 +26,62 @@ class Landing extends React.Component {
 
         <p>
           I work with some popular web technologies to creatively bring ideas to live.
+          <small>
+            Click any of the icons to &nbsp;
+            <a href="https://app.pluralsight.com/profile/feranmi-akinlade" target="_blank" rel="noopener noreferrer">
+              view details
+            </a>
+          </small>
         </p>
 
         <div id="skills-list">
           <div>
-            <span>
+            <a href="https://app.pluralsight.com/profile/feranmi-akinlade" target="_blank" rel="noopener noreferrer">
               <img alt="Angular Logo" title="Angular" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==" />
               <span>Angular</span>
-            </span>
-            <span>
+            </a>
+            <a href="https://app.pluralsight.com/profile/feranmi-akinlade" target="_blank" rel="noopener noreferrer">
               <img src="/icons/typescript.png" alt="TypeScript.png" title="TypeScript" />
               <span>TypeScript</span>
-            </span>
-            <span>
+            </a>
+            <a href="https://app.pluralsight.com/profile/feranmi-akinlade" target="_blank" rel="noopener noreferrer">
               <img src="/icons/sass.png" alt="Sass Logo" title="Less" />
               <span>Less</span>
-            </span>
+            </a>
           </div>
 
           <div>
-            <span>
+            <a href="https://app.pluralsight.com/profile/feranmi-akinlade" target="_blank" rel="noopener noreferrer">
               <img src={reactLogo} alt="React Logo" title="React" />
               <span>React</span>
-            </span>
-            <span>
+            </a>
+            <a href="https://app.pluralsight.com/profile/feranmi-akinlade" target="_blank" rel="noopener noreferrer">
               <img src="/icons/javascript.png" alt="JavaScript Logo" title="JavaScript" />
               <span>JavaScript</span>
-            </span>
-            <span>
+            </a>
+            <a href="https://app.pluralsight.com/profile/feranmi-akinlade" target="_blank" rel="noopener noreferrer">
               <img src="/icons/css3.png" alt="CSS3 Logo" title="CSS 3" />
               <span>CSS</span>
-            </span>
-            <span>
+            </a>
+            <a href="https://app.pluralsight.com/profile/feranmi-akinlade" target="_blank" rel="noopener noreferrer">
               <img src="/icons/html5.png" alt="HTML5 Logo" title="HTML 5" />
               <span>HTML</span>
-            </span>
+            </a>
           </div>
 
           <div>
-            <span>
+            <a href="https://app.pluralsight.com/profile/feranmi-akinlade" target="_blank" rel="noopener noreferrer">
               <img src="/icons/electron.png" alt="Electron.js Logo" title="Electron.js" />
               <span>Electron.js</span>
-            </span>
-            <span>
+            </a>
+            <a href="https://app.pluralsight.com/profile/feranmi-akinlade" target="_blank" rel="noopener noreferrer">
               <img src="/icons/nodejs.png" alt="Node.js Logo" title="Node.js" />
               <span>Node.js</span>
-            </span>
-            <span>
+            </a>
+            <a href="https://app.pluralsight.com/profile/feranmi-akinlade" target="_blank" rel="noopener noreferrer">
               <img src="/icons/expressjs.png" alt="Express.js Logo" title="Express.js" />
               <span>Express.js</span>
-            </span>
+            </a>
           </div>
         </div>
 
