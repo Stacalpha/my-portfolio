@@ -15,8 +15,8 @@ server.listen(3001, ()=>console.log('Server listening on port 3001'));*/
 const express = require('express');
 const app = express();
 
-const PORT = 3001;
-const build = './stable-build';
+const PORT = process.env.PORT || 3001;
+const build = './build';
 
 app.use(express.static(build));
 
