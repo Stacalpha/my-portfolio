@@ -1,37 +1,23 @@
 {
-  "name": "my-portfolio",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "build:serve": "react-scripts build && node server.js",
-    "test": "react-scripts test"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
+  "name": "ux-feranmi",
+  "version": "0.0.0",
+  "main": "index.js",
   "dependencies": {
-    "node-sass": "^4.12.0",
+    "@zeit/next-sass": "^1.0.1",
+    "node-sass": "^4.13.0",
+    "amp-toolbox-optimizer": "^0.5.3",
+    "axios": "^0.18.0",
+    "encoding": "^0.1.12",
+    "netlify-lambda": "^1.4.11",
+    "next": "^8.1.0",
+    "next-aws-lambda": "^2.0.0-alpha.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-dom": "^16.8.6"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "og-development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "scripts": {
+    "dev": "next",
+    "build:next": "next build",
+    "build": "npm run build:next && cp -a public/_next/serverless/pages src/functions/ && netlify-lambda build src/functions",
+    "start": "next start"
   }
 }
