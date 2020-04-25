@@ -2,8 +2,6 @@ import './_styles/home.scss';
 import AppShell from './_app-shell';
 
 const Home = ()=> {
-  let position = this.props.status.position;
-
   return <AppShell>
     <div id="landing-top-cutout">
       <span></span>

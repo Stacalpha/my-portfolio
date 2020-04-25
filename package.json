@@ -18,6 +18,7 @@
     "dev": "next",
     "build:next": "next build",
     "build": "npm run build:next && cp -a public/_next/serverless/pages src/functions/ && netlify-lambda build src/functions",
-    "start": "next start"
+    "start": "next start",
+    "netlify:serve": "netlify-lambda serve src/functions"
   }
 }
