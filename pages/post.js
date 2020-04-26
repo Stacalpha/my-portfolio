@@ -25,14 +25,14 @@ const Post = ({ post }) => {
   </div>;
 }
 
-Post.getInitialProps = async props => {
-  if (props.res) {
+Post.getInitialProps = async (context) => {
+  if (context.res) {
     console.log('setHeader')
-    props.res.setHeader('Cache-Control', 'public, s-maxage=30, stale-while-revalidate')
+    context.res.setHeader('Cache-Control', 'public, s-maxage=30, stale-while-revalidate')
   }
 
-  console.log('[renderApp]', props.asPath, props.query, props.req && props.req.query.id)
-  const id = props.req ? props.req.query.id : props.query.id
+  console.log('[renderApp]', context.asPath, context.query, context.req && context.req.query.id)
+  const id = context.req ? context.req.query.id : context.query.id
 
   const { data } = await axios.get(`https://netlify-json-api.netlify.com/posts/${id}`)
 
