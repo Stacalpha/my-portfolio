@@ -3,6 +3,7 @@
 public/_next/
 .next
 build/
+functions/pages/
 
 # dependencies
 node_modules/

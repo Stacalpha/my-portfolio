@@ -8,7 +8,7 @@ const Home = ()=> {
     </div>
 
     <img id="app-dp" src="/assets/me2.jpg" alt="Me in a blue suit." title="A picture of me in a blue suit." />
-    <small>Web Developer</small>
+    <small>WebApp Developer</small>
 
     <h1>
       Hi! I'm Fẹranmi.<br />I build responsive Web Apps.<br />

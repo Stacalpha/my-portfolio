@@ -14,8 +14,9 @@
     "react-dom": "^16.13.1"
   },
   "scripts": {
+    "build": "next build && cp -a public/_next/serverless/pages functions/",
     "dev": "nodemon devserver.js",
-    "build": "node server.js && next build"
+    "next:dev": "next dev"
   },
   "devDependencies": {
     "express": "^4.17.1"

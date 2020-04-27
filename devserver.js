@@ -12,7 +12,7 @@ function start() {
     app.listen(PORT, ()=>console.log(`Serving ${build} folder on port ${PORT}`));
 }
 
-exec('next build && touch -am functions/index.js', (error, stdout, stderr) => {
+exec('npm run build', (error, stdout, stderr) => {
   if (error) {
     console.error(`exec error: ${error}`);
     return;
