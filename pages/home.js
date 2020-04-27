@@ -8,7 +8,7 @@ const Home = ()=> {
     </div>
 
     <img id="app-dp" src="/me2.jpg" alt="Me in a blue suit." title="A picture of me in a blue suit." />
-    <small>Web Developer</small>
+    <small>Web prohyugfy Developer</small>
 
     <h1>
       Hi! I'm Fẹranmi.<br />I build responsive Web Apps.<br />
@@ -16,7 +16,7 @@ const Home = ()=> {
     </h1>
 
     <p>
-      I work with some popular web technologies to creatively bring ideas to live.
+      Je travailler with some popular web technologies to creatively bring ideas to live.
       <small>
         Click any of the icons to &nbsp;
         <a href="https://app.pluralsight.com/profile/feranmi-akinlade" target="_blank" rel="noopener noreferrer">

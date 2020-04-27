@@ -14,8 +14,10 @@
     "react-dom": "^16.13.1"
   },
   "scripts": {
-    "dev": "next dev",
-    "next:build": "next build",
-    "build": "npm run build:next && cp -a public/_next/serverless/pages src/functions/ && netlify-lambda build src/functions"
+    "dev": "nodemon devserver.js",
+    "build": "next build"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
   }
 }
