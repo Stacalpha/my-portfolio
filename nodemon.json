@@ -1,5 +1,5 @@
 {
-	"watch": ["devserver.js", "pages"],
+	"watch": ["pages", "devserver.js", "next.config.js"],
 	"ext": "js json scss",
 	"ignore": [
 		".git", ".next", "node_modules",
