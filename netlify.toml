@@ -1,0 +1,27 @@
+[build]
+  functions="functions"
+  publish="public/"
+  command="npm run build"
+
+[dev]
+  command="npm run dev"
+
+## REDIRECTS
+# Routes for static pages
+[[redirects]]
+    from = "/"
+    to = "/.netlify/functions/index"
+    status = 200
+    force = true 
+# Redirect all other URLs to the single page application
+[[redirects]]
+    from = "/posts/:post_id"
+    to = "/.netlify/functions/post/:post_id"
+    status = 200
+    force = true 
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    Content-Security-Policy = "frame-ancestors 'none'"
