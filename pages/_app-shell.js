@@ -40,27 +40,22 @@ const AppShell = (props)=> {
       <address>
         <a href="https://twitter.com/uxFeranmi" title="Find me on Twitter"
             target="_blank" rel="noopener noreferrer">
-          <img src="/assets/icons/twitter.png" alt="" />
           Twitter
         </a> &nbsp;
         <a href="https://github.com/uxFeranmi" title="My GitHub profile"
             target="_blank" rel="noopener noreferrer">
-          <img src="/assets/icons/github.png" alt="" />
           GitHub
         </a> &nbsp;
         <a href="https://stackoverflow.com/users/story/7665742"
             target="_blank" rel="noopener noreferrer"
             title="My developer story on Stack Overflow">
-          <img src="/assets/icons/stackoverflow.png" alt="" />
           Stack Overflow
         </a> &nbsp;
         <a href="https://www.linkedin.com/in/akinlade-feranmi-0b6bbb170"
             target="_blank" rel="noopener noreferrer" title="My LinkedIn profile">
-          <img src="/assets/icons/linkedin.png" alt="" />
           LinkedIn
         </a> &nbsp;
         <a href="mailto:uxFeranmi@gmail.com" title="Send me an email">
-          <img src="/assets/icons/email.png" alt="" />
           Contact me
         </a> &nbsp;
       </address>
