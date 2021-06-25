@@ -2,6 +2,11 @@
   "name": "ux-feranmi",
   "version": "0.0.0",
   "main": "index.js",
+  "scripts": {
+    "build": "next build && cp -a public/_next/serverless/pages functions/",
+    "dev": "nodemon devserver.js",
+    "next:dev": "next dev"
+  },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "amp-toolbox-optimizer": "^0.5.3",
@@ -12,11 +17,6 @@
     "node-sass": "^4.13.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
-  },
-  "scripts": {
-    "build": "next build && cp -a public/_next/serverless/pages functions/",
-    "dev": "nodemon devserver.js",
-    "next:dev": "next dev"
   },
   "devDependencies": {
     "express": "^4.17.1"

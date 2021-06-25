@@ -1,40 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
 :root {
-  //font-size: calc(.6em + 1vw);
-  /*font-family: 'Segoe UI', Arial, Helvetica, 'Lucida Sans', Verdana, sans-serif;*/
-  background-color: white;
-  text-align: center;
-  width: 100vw;
-  overflow-x: hidden;
+  font-family: 'Segoe UI', Arial, Helvetica, 'Lucida Sans', Verdana, sans-serif;
+  max-width: 100vw;
 }
 
 * {
-  font-family: 'Segoe UI', Arial, Helvetica, 'Lucida Sans', Verdana, sans-serif;
   box-sizing: border-box;
-  text-decoration: none;
   margin: 0;
   padding: 0;
 }
 
-:focus { /*:focus-visible*/
-  outline: solid 1px goldenrod;/*For when elements have :focus*/
+:focus {
+  outline: dotted 1px blue;
   outline-offset: 2px;
+  text-decoration: none;
+}
+
+:active {
+  outline: none;
+}
+
+a, a:visited {
+  color: blue;
+}
+
+::selection {
+  background-color: goldenrod;
+  color: white;
 }
 
 body {
-  margin: 0;
   width: 100vw;
-  overflow-x: hidden;
+  font-size: calc(16px + 0.25vw);
 }
 
-app-header, #app-header, #page-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 10vh;
-  z-index: 5;
-  box-shadow: 0 1px 10px 0 black;
+p, h2 {
+  max-width: 600px;
 }
 
 img {
@@ -45,262 +45,12 @@ button {
   cursor: pointer;
 }
 
-.soft-white-bg {
-  background-color: rgba(189, 0, 28, 0.1);/*Blue:- rgba(25, 118, 210, 0.1);*/
-  color: black;
-}
-
-.global-bg {
-  background-color: #bd001b; /*Blue:- rgb(25, 118, 210);*/
-  color: white;
-}
-
-header {
-  z-index: 5;
-}
-
-.wide-paragraphs {
-  padding-right: 20%;
-  padding-left: 20%;
-}
-
 .half-line-break {
   display: block;
   line-height: 0.4em;
 }
 
-.flex-box-hor {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center; 
-}
-
-.flex-box-vert {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.scroll-padding {
-  width: 10vw;
-}
-
-/*BUTTON STYLES*/
-.button { /*Button class*/
-  font-size: .7em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /*height: 30.8px;*/
-  white-space: nowrap;
-  padding: 5px 15px;
-  border: none;
-  border-radius:  1000px;
-  background-color: #990621; /*Blue:- rgb(16, 75, 134);*/
-  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.6);
-  color: white; /*#06224b;*/
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.solid-button {
-  border: 2px outset #e61109;
-}
-
-.button:hover {
-  color: white;
-  box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.8);
-}
-
-.button:active {
-  background-color: #4e0a16; /*Blue:- #06224b;*/
-}
-
-.light-button { /*Buttons placed over a dark background*/
-  background-color: #d30221; /*Blue:- #1D6BC0;*/
-}
-
-.dark-button {
-  background-color: #4e0a16; /*Blue:- #184580;*/
-}
-
-.white-bg-button {
-  background-color: #a30320; /*Blue:- #215da8;*/
-}
-
-.invalid-button {
-  background-color: rgba(255, 0, 0, 0.3);
-  box-shadow: none;
-}
-/*END BUTTON STYLES*/
-
-.polaroid {
-  border-radius: 10px;
-  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.5);
-  overflow: hidden;
-  position: relative;
-}
-
-.polaroid-img {
-  min-height: 60%;
-  max-height: 80%;
-  //width: 100%;
-  border-radius: inherit inherit 0 0;
-  object-fit: fill;
-}
-
-.polaroid-bezel {
-  //max-height: 30%;
-  position: relative;
-  //width: 100%;
-  border-radius: 0 0 inherit inherit;
-  justify-content: flex-end;
-}
-
-.polaroid-action {
-  position: absolute;
-  bottom: 10px;
-  right: 5%;
-  box-shadow: none;
-}
-
-.fade-out-mask-top { //Requires position: relative on parent.
-  position: absolute;
-  bottom: 90%;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  background-image: linear-gradient(to top, white 10%, rgba(255, 255, 255, 0));
-  pointer-events: none;
-}
-
-.dark-background { /*Parent must be a positioned element and have a defined z-index*/
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  z-index: -1;
-}
-/*
-h1 {
-  //font-size: 2.2rem;
-  letter-spacing: 0.07em;
-}
-
-h2 {
-  //font-size: 1.9rem;
-  font-weight: 400;
-}
-
-h3 {
-  //font-size: 1.6rem;
-  font-weight: 400;
-}
-
-h4 {
-  //font-size: 1.5rem;
-  font-weight: 300;
-}
-
-h5 {
-  //font-size: 1.2rem;
-  font-weight: 300;
-}
-
-h6 {
-
-}
-
-p {
-  font-weight: 300;
-  //font-size: .9rem;
-}
-*/
-
-small {
-  //font-weight: 400;
-  font-size: .5em;
-}
-
 .disabled {
   opacity: .5;
-  /*box-shadow: none !important;*/
-}
-
-@media (max-width: 768px) {
-  :root {
-    //font-size: calc(.6em + .8vw);
-  }
-}
-
-@media (max-width: 420px) {
-  h1 {
-    //font-size: 2rem;
-    letter-spacing: initial;
-  }
-
-  .wide-paragraphs {
-    padding-right: 15%;
-    padding-left: 15%;
-  }
-}
-
-///////////
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-align: center;
-  //max-width: 100vw;
-}
-
-:focus {
-  outline: solid 1px goldenrod;
-  outline-offset: 3px;
-}
-
-::selection {
-  background-color: goldenrod;
-  color: white;
-}
-
-:root {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-  margin: 0;
-  background-color: #283653;
-  font-family: "Segoe UI", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-h1 {  
-  font-weight: 400;
-}
-
-h2 {
-  font-weight: 300;
-}
-
-p {
-  font-size: 1.2em;
-  font-weight: 200;
-}
-
-small {
-  font-weight: 200;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  box-shadow: none;
 }

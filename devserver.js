@@ -4,12 +4,12 @@ const { exec } = require('child_process');
 const app = express();
 
 function start() {
-    const PORT = process.env.PORT || 3000;
-    const build = './public';
-    
-    app.use(express.static(build));
-    
-    app.listen(PORT, ()=>console.log(`Serving ${build} folder on port ${PORT}`));
+  const PORT = process.env.PORT || 3000;
+  const build = './public';
+  
+  app.use(express.static(build));
+  
+  app.listen(PORT, ()=> console.log(`Serving ${build} folder on port ${PORT}`));
 }
 
 exec('npm run build', (error, stdout, stderr) => {
