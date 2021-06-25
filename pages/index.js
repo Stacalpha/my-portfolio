@@ -1,9 +1,8 @@
-import './_styles/home.scss';
-import AppShell from './_app-shell';
+import styles from './_styles/home.module.scss';
 
 const Home = ()=> {
-  return <AppShell>
-    <section className="section" id="about">
+  return <>
+    <section className={styles.section} id="about">
       <h2>Hi 👋</h2>
       <p>I'm Fẹranmi, a Web Developer from Lagos, Nigeria.</p>
       <p>
@@ -28,7 +27,7 @@ const Home = ()=> {
       </p>
     </section>
 
-    <section className="section" id="speaking">
+    <section className={styles.section} id="speaking">
       <h2>Speaking</h2>
       <p>
         I enjoyed speaking at
@@ -44,7 +43,7 @@ const Home = ()=> {
       </p>
     </section>
 
-    <section className="section" id="writing">
+    <section className={styles.section} id="writing">
       <h2>Writing</h2>
       <p>
         I love to write about web stuff. I'm currently building
@@ -60,7 +59,7 @@ const Home = ()=> {
         please <a href="mailto:uxFeranmi@gmail.com">contact me</a>.
       </p>
     </section>
-  </AppShell>
+  </>
 }
 
 /*Home.getInitialProps = async (context)=> {

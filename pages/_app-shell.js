@@ -2,41 +2,41 @@
 //import Link from 'next/link'
 //import { withRouter } from 'next/router'
 import Head from 'next/head';
-import './_styles/app-shell.scss';
+import styles from './_styles/app-shell.module.scss';
 
 const AppShell = (props)=> {
-  return [
+  return <>
     <Head key={'Site-wide <head> content'}>
       <title>Fẹranmi Akinlade | Front-end Engineer</title>
-    </Head>,
+    </Head>
 
-    <header key={'Titlebar'} className="site-header">
-      <h1 className="page-title">
+    <header key={'Titlebar'} className={styles['site-header']}>
+      <h1 className={styles['page-title']}>
         <a href="#about">Fẹranmi Akinlade</a>
       </h1>
 
-      <nav className="main-nav">
-        <ul className="main-nav__list">
-          <li className="main-nav__item ">
+      <nav className={styles['main-nav']}>
+        <ul className={styles['main-nav__list']}>
+          <li className={styles['main-nav__item']}>
             <a href="#speaking">Speaking</a>
           </li>
-          <li className="main-nav__item ">
+          <li className={styles['main-nav__item']}>
             <a href="#writing">Blog</a>
           </li>
-          <li className="main-nav__item ">
+          <li className={styles['main-nav__item']}>
             <a href="mailto:uxFeranmi@gmail.com" title="Send me an email">
               Contact me
             </a>
           </li>
         </ul>
       </nav>
-    </header>,
+    </header>
 
-    <main key={'Main content'}>
+    <main key={'Main content'} className={styles['main-content']}>
       {props.children}
-    </main>,
+    </main>
 
-    <footer key={'Site footer'} className="site-footer">
+    <footer key={'Site footer'} className={styles['site-footer']}>
       <address>
         <a href="https://twitter.com/uxFeranmi" title="Find me on Twitter"
             target="_blank" rel="noopener noreferrer">
@@ -60,7 +60,7 @@ const AppShell = (props)=> {
         </a> &nbsp;
       </address>
     </footer>
-  ];
+  </>;
 };
 
 export default AppShell; //withRouter(Home);

@@ -1,24 +1,9 @@
 [build]
-  functions="functions"
-  publish="public/"
   command="npm run build"
 
 [dev]
-  command="npm run dev"
+  command="npm run dev:custom"
 
-## REDIRECTS
-# Routes for static pages
-[[redirects]]
-    from = "/"
-    to = "/.netlify/functions/index"
-    status = 200
-    force = true
-[[redirects]]
-    from = "/posts/:post_id"
-    to = "/.netlify/functions/post/:post_id"
-    status = 200
-    force = true
-# Redirect all other URLs to the single page application 
 [[redirects]]
     from = "*"
     to = "/"
