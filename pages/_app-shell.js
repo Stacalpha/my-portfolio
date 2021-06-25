@@ -1,5 +1,5 @@
 //import axios from 'axios'
-//import Link from 'next/link'
+import Link from 'next/link'
 //import { withRouter } from 'next/router'
 import Head from 'next/head';
 import styles from './_styles/app-shell.module.scss';
@@ -12,16 +12,22 @@ const AppShell = (props)=> {
 
     <header key={'Titlebar'} className={styles['site-header']}>
       <h1 className={styles['page-title']}>
-        <a href="#about">Fẹranmi Akinlade</a>
+        <Link href={{ pathname: '/', hash: '#about' }}>
+          <a>Fẹranmi Akinlade</a>
+        </Link>
       </h1>
 
       <nav className={styles['main-nav']}>
         <ul className={styles['main-nav__list']}>
           <li className={styles['main-nav__item']}>
-            <a href="#speaking">Speaking</a>
+            <Link href={{ pathname: '/', hash: '#speaking' }}>
+              <a>Speaking</a>
+            </Link>
           </li>
           <li className={styles['main-nav__item']}>
-            <a href="#writing">Blog</a>
+            <Link href={{ pathname: '/', hash: '#writing' }}>
+              <a>Blog</a>
+            </Link>
           </li>
           <li className={styles['main-nav__item']}>
             <a href="mailto:uxFeranmi@gmail.com" title="Send me an email">
