@@ -8,15 +8,13 @@
     "next:dev": "next dev"
   },
   "dependencies": {
-    "@zeit/next-sass": "^1.0.1",
     "amp-toolbox-optimizer": "^0.5.3",
     "axios": "^0.18.0",
     "encoding": "^0.1.12",
-    "next": "^8.1.0",
-    "next-aws-lambda": "^2.0.0-alpha.0",
-    "node-sass": "^4.13.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.35.1"
   },
   "devDependencies": {
     "express": "^4.17.1"
