@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "next build && cp -a public/_next/serverless/pages functions/",
+    "build": "next build",
     "dev": "nodemon devserver.js",
     "next:dev": "next dev"
   },
