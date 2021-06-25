@@ -3,15 +3,17 @@
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "next",
+    "dev:custom": "nodemon devserver.js",
     "build": "next build",
-    "dev": "nodemon devserver.js",
-    "next:dev": "next dev"
+    "start": "next start"
   },
   "dependencies": {
     "amp-toolbox-optimizer": "^0.5.3",
     "axios": "^0.18.0",
     "encoding": "^0.1.12",
     "next": "^11.0.1",
+    "postcss": "^8.3.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "sass": "^1.35.1"
