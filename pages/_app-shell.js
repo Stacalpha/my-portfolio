@@ -1,6 +1,4 @@
-//import axios from 'axios'
-import Link from 'next/link'
-//import { withRouter } from 'next/router'
+import Link from 'next/link';
 import Head from 'next/head';
 import styles from './_styles/app-shell.module.scss';
 
@@ -26,7 +24,7 @@ const AppShell = (props)=> {
           </li>
           <li className={styles['main-nav__item']}>
             <Link href={{ pathname: '/', hash: '#writing' }}>
-              <a>Blog</a>
+              <a>Writing</a>
             </Link>
           </li>
           <li className={styles['main-nav__item']}>
@@ -69,4 +67,4 @@ const AppShell = (props)=> {
   </>;
 };
 
-export default AppShell; //withRouter(Home);
+export default AppShell;
