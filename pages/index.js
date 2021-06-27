@@ -46,13 +46,11 @@ const Home = ()=> {
     <section className={styles.section} id="writing">
       <h2>Writing</h2>
       <p>
-        I love to write about web stuff. I'm currently building
+        I love to write about web apps and how to build them. I'm currently building
         out <a href="http://webapp.tips" target="_blank" rel="noopener noreferrer">
           webapp.tips
-        </a> — a new home for all
-        of <a href="http://webapp.tips/published-elsewhere" target="_blank" rel="noopener noreferrer">
-          my articles
-        </a> — where I'll share little tips and tricks for building awesome web apps. <br />
+        </a> — a new home for all of my articles
+        where I'll share little tips and tricks for building awesome web applications. <br />
         I also have a bunch of new content I'm excited to publish once it's live.
         Watch this space 😉. <br />
         If you would like me to write for your publication or some such,
