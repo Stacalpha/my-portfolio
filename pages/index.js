@@ -1,10 +1,10 @@
-import styles from './_styles/home.module.scss';
+import styles from '../styles/home.module.scss';
 
 const Home = ()=> {
   return <>
     <section className={styles.section} id="about">
       <h2>Hi 👋</h2>
-      <p>I'm Fẹranmi, a Web Developer from Lagos, Nigeria.</p>
+      <p>I'm Feranmi, a Web Developer from Lagos, Nigeria.</p>
       <p>
         Currently, I develop great user experiences as a Front-end Engineer
         at <a href="https://buycoins.africa" target="_blank" rel="noopener noreferrer">
@@ -21,7 +21,7 @@ const Home = ()=> {
       <p>
         I am passionate about user experience and web accessibility,
         and I enjoy writing about useful tips and tricks for developing web applications
-        on my blog, <a href="http://wepapp.tips" target="_blank" rel="noopener noreferrer">
+        on my blog, <a href="http://webapp.tips">
           Web App Tips
         </a>.
       </p>
@@ -46,13 +46,9 @@ const Home = ()=> {
     <section className={styles.section} id="writing">
       <h2>Writing</h2>
       <p>
-        I love to write about web stuff. I'm currently building
-        out <a href="http://webapp.tips" target="_blank" rel="noopener noreferrer">
-          webapp.tips
-        </a> — a new home for all
-        of <a href="http://webapp.tips/published-elsewhere" target="_blank" rel="noopener noreferrer">
-          my articles
-        </a> — where I'll share little tips and tricks for building awesome web apps. <br />
+        I love to write about web apps and how to build them. I'm currently building
+        out <a href="http://webapp.tips">webapp.tips</a> — a new home for all of my articles
+        where I'll share little tips and tricks for building awesome web applications. <br />
         I also have a bunch of new content I'm excited to publish once it's live.
         Watch this space 😉. <br />
         If you would like me to write for your publication or some such,

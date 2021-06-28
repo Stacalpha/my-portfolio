@@ -34,8 +34,14 @@ body {
   font-size: calc(16px + 0.25vw);
 }
 
-p, h2 {
-  max-width: 600px;
+h1 {
+  font-weight: 600;
+  font-size: 1.6em;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 1.5em;
 }
 
 img {

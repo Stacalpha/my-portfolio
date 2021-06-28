@@ -1,6 +1,6 @@
 // import App from 'next/app'
-import './_styles/global.scss';
-import AppShell from './_app-shell';
+import '../styles/global.scss';
+import AppShell from '../components/app-shell';
 
 function MyApp({ Component, pageProps }) {
 	return <AppShell>
@@ -20,4 +20,4 @@ function MyApp({ Component, pageProps }) {
 //   return { ...appProps }
 // }
 
-export default MyApp
+export default MyApp;
