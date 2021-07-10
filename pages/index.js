@@ -2,8 +2,8 @@ import styles from '../styles/home.module.scss';
 
 const Home = ()=> {
   return <>
-    <section className={styles.section} id="about">
-      <div className={styles['section-wrapper']}>
+    <section className={[styles.section, styles['is-hero']].join(' ')} id="about">
+      <div className={styles['section__wrapper']}>
         <h2>Hi 👋</h2>
         <p>I'm Feranmi, a Web Developer from Lagos, Nigeria.</p>
         <p>
@@ -33,7 +33,7 @@ const Home = ()=> {
     <hr className={styles.hr} />
 
     <section className={styles.section} id="speaking">
-      <div className={styles['section-wrapper']}>
+      <div className={styles['section__wrapper']}>
         <h2>Speaking</h2>
         <p>
           I enjoyed speaking at
@@ -51,7 +51,7 @@ const Home = ()=> {
     </section>
 
     <section className={styles.section} id="writing">
-      <div className={styles['section-wrapper']}>
+      <div className={styles['section__wrapper']}>
         <h2>Writing</h2>
         <p>
           I love to write about web apps and how to build them. I'm currently building

@@ -5,10 +5,16 @@
   }
   display: flex;
   justify-content: center;
-  flex-wrap: wrap-reverse;
-  align-items: flex-end;
+  align-items: flex-start;
   row-gap: 100px;
   column-gap: 100px;
+  @media screen and (max-width: 800px) {
+    flex-wrap: wrap-reverse;
+  }
+
+  &.is-hero &__wrapper {
+    flex-shrink: 2;
+  }
 
   h2 {
     margin-bottom: 15px;
@@ -19,16 +25,7 @@
   p {
     margin-bottom: 20px;
     max-width: 600px;
-    text-align: left;
-  }
-}
-
-.section-wrapper {
-  flex-basis: 40vw;
-  flex-grow: 10;
-  flex-shrink: 2;
-  @media screen and (max-width: 800px) {
-    flex-shrink: 0;
+    text-align: justify;
   }
 }
 
@@ -41,6 +38,7 @@
 
   height: 15vw;
   width: 15vw;
+  flex-shrink: 0;
   object-fit: cover;
   object-position: center 20%;
   display: block;
