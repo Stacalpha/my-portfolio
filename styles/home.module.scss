@@ -30,32 +30,29 @@
 }
 
 .display-picture {
+  display: block;
+  object-fit: cover;
+  object-position: center 20%;
+
   border: 1px solid var(--bg-color);
   border-radius: 1000px;
   box-shadow: 1px 1px 10px rgba(0, 0, 200, 0.5);
 
-  // ...
-
-  height: 15vw;
-  width: 15vw;
+  height: 200px;
+  width: 200px;
   flex-shrink: 0;
-  object-fit: cover;
-  object-position: center 20%;
-  display: block;
+  
+  @media screen and (min-width: 1333px) {
+    height: 15vw;
+    width: 15vw;
+  }
 
   @media screen and (min-width: 1666px) {
     height: 250px;
     width: 250px;
   }
-
-  
-  @media screen and (max-width: 1333px) {
-    height: 200px;
-    width: 200px;
-  }
 }
 
 .hr {
-  margin-top: 120px;
-  //margin-bottom: 60px;
+  margin-top: 160px;
 }
