@@ -34,11 +34,8 @@
   object-fit: cover;
   object-position: center 20%;
   display: block;
-  box-shadow: 1px 1px 8px 0 rgba(0, 0, 50, 0.7);
-  box-shadow: 1px 1px 8px 0 rgba(0, 0, 200, 0.5);
-  box-shadow: 2px 2px 8px 0px rgba(0, 0, 200, 0.3),
-              1px 1px 8px 0px rgba(0, 0, 200, 0.5);
-  //flex-shrink: 1;
+  border: 1px solid var(--bg-color);
+  box-shadow: 1px 1px 10px rgba(0, 0, 200, 0.5);
 }
 
 .hr {
