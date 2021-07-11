@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from '../styles/home.module.scss';
 
 const Home = ()=> {
@@ -7,24 +8,28 @@ const Home = ()=> {
         <h2>Hi 👋</h2>
         <p>I'm Feranmi, a Web Developer from Lagos, Nigeria.</p>
         <p>
-          Currently, I develop great user experiences as a Front-end Engineer
+          I am passionate about user experience and web accessibility,
+          and I enjoy creating user interfaces that are delightful and inclusive.
+          I love to <Link href={{ pathname: '/', hash: '#writing' }}>
+            <a>write</a>
+          </Link> about these things too!
+        </p>
+        <p>
+          I currently work as a Front-end Engineer with a great team
           at <a href="https://buycoins.africa" target="_blank" rel="noopener noreferrer">
             Buycoins
-          </a>.
+          </a>, where we're building the future of money for users in Nigeria and Africa at large,
+          powered by cryptocurrency.
         </p>
         <p>
-          Buycoins is a cryptocurrency exchange for Africa, where we also
-          develop <a href="https://sendcash.africa/" target="_blank" rel="noopener noreferrer">
-            Sendcash
-          </a> — a platform for users in Africa
-          to send and receive money from around the world.
-        </p>
-        <p>
-          I am passionate about user experience and web accessibility,
-          and I enjoy writing about useful tips and tricks for developing web applications
-          on my blog, <a href="http://webapp.tips">
-            Web App Tips
-          </a>.
+          When I'm not working, you can usually find me
+          on <a href="https://twitter.com/uxFeranmi" title="Find me on Twitter"
+            target="_blank" rel="noopener noreferrer">
+            Twitter
+          </a> or
+          ocassionally <a href="https://www.chess.com/member/uxferanmi" target="_blank" rel="noopener noreferrer">
+            playing chess
+          </a> at <i>chess.com</i>. Send me a challenge if you play too! 😉
         </p>
 
         {/*<p>
@@ -46,15 +51,12 @@ const Home = ()=> {
           the <a href="https://medium.com/frontstackio/frontstack-event-recap-frontend-favourites-d0a7845e4039" target="_blank" rel="noopener noreferrer">
             Frontstack
           </a> conference where I talked about creating a better web for everyone
-          by <a href="https://docs.google.com/presentation/d/1hl9zaoHPyiGaimguZ0JZShqFuAx2ORyloBltaV7g6ik/embed" target="_blank" rel="noopener noreferrer">
+          by <a href="https://docs.google.com/presentation/d/1hl9zaoHPyiGaimguZ0JZShqFuAx2ORyloBltaV7g6ik/embed">
             building accessible websites
           </a>.
         </p>
         <p>
-          I am passionate about web accessibility and user experience in general,
-          and I love to talk about these things! <br />
-        </p>
-        <p>
+          I'm always excited to talk about web accessibility and user experience in general.
           I would love to speak at your event. Do contact me if you're organising one.
         </p>
       </div>
@@ -70,7 +72,7 @@ const Home = ()=> {
         </p>
         <p>
           I also have a bunch of new content I'm excited to publish once it's live.
-          Watch this space 😉. <br />
+          Watch this space 😊.
         </p>
         <p>
           If you would like me to write for your publication or some such,
