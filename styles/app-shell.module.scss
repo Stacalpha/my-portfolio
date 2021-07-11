@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 5;
-  box-shadow: 0 0px 10px 0 rgba(0, 0, 200, 0.3);
+  box-shadow: 0 0px 10px 0 rgba(var(--shadow-rgb), 0.3);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,7 +44,7 @@
 }
 
 .site-footer {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgb(221, 237, 253);
   display: flex;
   justify-content: center;
   align-items: center;

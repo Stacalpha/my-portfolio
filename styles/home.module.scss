@@ -36,7 +36,7 @@
 
   border: 1px solid var(--bg-color);
   border-radius: 1000px;
-  box-shadow: 1px 1px 10px rgba(0, 0, 200, 0.5);
+  box-shadow: 1px 1px 10px rgba(var(--shadow-rgb), 0.5);
 
   height: 200px;
   width: 200px;

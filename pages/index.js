@@ -42,10 +42,14 @@ const Home = ()=> {
           </a> conference where I talked about creating a better web for everyone
           by <a href="https://docs.google.com/presentation/d/1hl9zaoHPyiGaimguZ0JZShqFuAx2ORyloBltaV7g6ik/embed" target="_blank" rel="noopener noreferrer">
             building accessible websites
-          </a>. <br />
+          </a>.
+        </p>
+        <p>
           I am passionate about web accessibility and user experience in general,
           and I love to talk about these things! <br />
-          I'd be happy to speak at your event. Do contact me if you're organising one.
+        </p>
+        <p>
+          I would love to speak at your event. Do contact me if you're organising one.
         </p>
       </div>
     </section>
@@ -57,8 +61,12 @@ const Home = ()=> {
           I love to write about web apps and how to build them. I'm currently building
           out <a href="http://webapp.tips">webapp.tips</a> — a new home for all of my articles
           where I'll share little tips and tricks for building awesome web applications. <br />
+        </p>
+        <p>
           I also have a bunch of new content I'm excited to publish once it's live.
           Watch this space 😉. <br />
+        </p>
+        <p>
           If you would like me to write for your publication or some such,
           please <a href="mailto:uxFeranmi@gmail.com">contact me</a>.
         </p>

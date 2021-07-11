@@ -2,7 +2,8 @@
   font-family: 'Open Sans', 'Segoe UI', Avenir, 'Century Gothic', Candara, Corbel, 'Lucida Sans', Geneva, 'Lucida Grande', Verdana, 'Trebuchet MS', sans-serif;
   font-size: calc(1em + 0.25vw);
   max-width: 100vw;
-  --bg-color: rgba(242, 242, 255);
+  --bg-color: rgb(235, 245, 255);
+  --shadow-rgb: 0, 50, 255;
 }
 
 * {
