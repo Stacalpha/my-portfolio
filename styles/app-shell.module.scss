@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 5;
-  box-shadow: 0 0px 10px 0 rgba(var(--shadow-rgb), 0.3);
+  box-shadow: 0 0px 10px 0 hsla(var(--primary-shadow-hsl), 0.3);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -35,6 +35,9 @@
 
     a, a:visited {
       color: inherit;
+      &:not(:focus) {
+        text-decoration: underline;
+      }
     }
   }
 }
@@ -44,7 +47,7 @@
 }
 
 .site-footer {
-  background-color: rgb(221, 237, 253);
+  background-color: var(--bg-color-secondary);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,5 +66,6 @@
   a {
     display: inline-flex;
     padding: 10px;
+    font-weight: normal;
   }
 }

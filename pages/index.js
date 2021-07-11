@@ -26,6 +26,12 @@ const Home = ()=> {
             Web App Tips
           </a>.
         </p>
+
+        <p>
+          <button className={styles.button}>
+            Click me
+          </button>
+        </p>
       </div>
       <img src="/assets/dp.jpg" className={styles['display-picture']} />
     </section>
@@ -69,6 +75,23 @@ const Home = ()=> {
         <p>
           If you would like me to write for your publication or some such,
           please <a href="mailto:uxFeranmi@gmail.com">contact me</a>.
+        </p>
+        
+        <p>
+          <button className={styles.button}>
+            Click me
+          </button>
+          <button className={styles.button2}>
+            Click me
+          </button>
+        </p>
+        <p>
+          <button className={styles.button3}>
+            Click me
+          </button>
+          <button className={styles.button4}>
+            Click me
+          </button>
         </p>
       </div>
     </section>

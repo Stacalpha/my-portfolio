@@ -34,9 +34,13 @@
   object-fit: cover;
   object-position: center 20%;
 
-  border: 1px solid var(--bg-color);
   border-radius: 1000px;
-  box-shadow: 1px 1px 10px rgba(var(--shadow-rgb), 0.5);
+
+  border: 1px solid var(--bg-color);
+  box-shadow: var(--primary-shadow);
+
+  //border: 3px solid var(--accent-color);
+  //box-shadow: var(--accent-shadow-large);
 
   height: 200px;
   width: 200px;
@@ -55,4 +59,42 @@
 
 .hr {
   margin-top: 160px;
+  border: 1px solid hsla(var(--primary-color-grayed-hsl), 0.3);
+}
+
+.button {
+  background-color: var(--accent-color);
+  box-shadow: var(--accent-shadow-large);
+
+  background-color: var(--primary-color);
+  box-shadow: var(--primary-shadow-large);
+}
+
+.button2 {
+  background-color: var(--primary-color-grayed);
+  box-shadow: var(--primary-shadow);
+}
+
+.button3 {
+  background-color: var(--primary-color);
+  margin-top: 10px !important;
+  box-shadow: var(--primary-shadow-large);
+}
+
+.button4 {
+  background-color: var(--bg-color);
+  color: black !important;
+  margin-top: 10px !important;
+  box-shadow: var(--primary-shadow);
+}
+
+.button, .button2, .button3, .button4 {
+  color: var(--accent-color-contrast);
+  margin: 70px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+  min-width: 130px;
 }
