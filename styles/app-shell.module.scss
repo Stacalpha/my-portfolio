@@ -2,14 +2,13 @@
   position: sticky;
   top: 0;
   z-index: 5;
-  box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: var(--primary-shadow);
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 10px 10vw;
-  // margin-bottom: 20px;
-  background-color: white;
+  background-color: var(--bg-color);
 
   .page-title {
     margin-right: 30px;
@@ -35,16 +34,19 @@
 
     a, a:visited {
       color: inherit;
+      &:not(:focus) {
+        text-decoration: underline;
+      }
     }
   }
 }
 
 .main-content {
-  padding: 0 50px 30px;
+  padding: 0 10vw 30px;
 }
 
 .site-footer {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: var(--bg-color-secondary);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,5 +65,6 @@
   a {
     display: inline-flex;
     padding: 10px;
+    font-weight: normal;
   }
 }
