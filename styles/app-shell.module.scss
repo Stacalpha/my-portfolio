@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 5;
-  box-shadow: 0 0px 10px 0 hsla(var(--primary-shadow-hsl), 0.3);
+  box-shadow: var(--primary-shadow);
   display: flex;
   align-items: center;
   justify-content: space-between;
