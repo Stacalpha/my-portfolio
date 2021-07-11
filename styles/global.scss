@@ -39,21 +39,25 @@
 
 a, a:visited {
   color: var(--primary-color-text);
-  //color: var(--accent-color-text);
   font-weight: 600;
   text-decoration: dotted underline;
   text-underline-offset: 3px;
 }
 
+a:hover {
+  color: var(--accent-color-text);
+}
+
 a:focus {
+  color: var(--accent-color-text);
   outline: dotted 2px currentColor;
   outline-offset: 2px;
   text-decoration: none;
 }
 
 ::selection {
-  background-color: goldenrod;
-  color: white;
+  background-color: var(--accent-color);
+  color: var(--accent-color-contrast);
 }
 
 body {

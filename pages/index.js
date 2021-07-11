@@ -27,11 +27,11 @@ const Home = ()=> {
           </a>.
         </p>
 
-        <p>
+        {/*<p>
           <button className={styles.button}>
             Click me
           </button>
-        </p>
+        </p>*/}
       </div>
       <img src="/assets/dp.jpg" className={styles['display-picture']} />
     </section>
@@ -77,7 +77,7 @@ const Home = ()=> {
           please <a href="mailto:uxFeranmi@gmail.com">contact me</a>.
         </p>
         
-        <p>
+        {/*<p>
           <button className={styles.button}>
             Click me
           </button>
@@ -92,7 +92,7 @@ const Home = ()=> {
           <button className={styles.button4}>
             Click me
           </button>
-        </p>
+        </p>*/}
       </div>
     </section>
   </>
