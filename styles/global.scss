@@ -68,6 +68,16 @@ body {
 h1 {
   font-weight: 600;
   font-size: 1.6em;
+  line-height: 1em;
+  // text-transform: uppercase;
+
+  small {
+    display: block;
+    margin-top: 7px;
+    font-weight: normal;
+    font-size: 0.7em;
+    // text-transform: none;
+  }
 }
 
 h2 {
