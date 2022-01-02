@@ -18,7 +18,7 @@ const Resume = ()=> {
                 <section className={styles['main-section']}>
                     <h1 className={styles.h1}>
                         Feranmi Akinlade
-                        <small>Frontend Engineer &amp; UI Developer</small>
+                        <small>Senior Frontend Engineer</small>
                     </h1>
 
                     <section>
@@ -119,81 +119,70 @@ const Resume = ()=> {
                 </section>
 
                 <aside key={'Sidebar'} className={styles['sidebar']}>
-                <img src="/assets/dp.jpg" className={styles['display-picture']} />
+                    <img src="/assets/dp.jpg" className={styles['display-picture']} />
 
-                <h2 className={styles.h2}>CONTACT</h2>
-                <dl>
-                    <dt>Email: </dt>
-                    <dd>laurandidi21@gmail.com</dd>
+                    <h2 className={styles.h2}>CONTACT</h2>
+                    <dl>
+                        <dt>Email: </dt>
+                        <dd>uxferanmi@gmail.com</dd>
 
-                    <dt>Website: </dt>
-                    <dd>www.giftegwuenu.com</dd>
+                        <dt>Website: </dt>
+                        <dd>https://feranmi.dev</dd>
 
-                    <dt>Location: </dt>
-                    <dd>Haarlem, Netherlands</dd>
-                </dl>
+                        <dt>Location: </dt>
+                        <dd>Lagos, Nigeria</dd>
+                    </dl>
 
-                <h2 className={styles.h2}>SOCIAL</h2>
-                <dl>
-                    <dt>Twitter: </dt>
-                    <dd>@lauragift21</dd>
+                    <h2 className={styles.h2}>SOCIAL</h2>
+                    <dl>
+                        <dt>Twitter: </dt>
+                        <dd>@uxFeranmi</dd>
 
-                    <dt>GitHub: </dt>
-                    <dd>@lauragift_</dd>
+                        <dt>GitHub: </dt>
+                        <dd>@uxFeranmi</dd>
 
-                    <dt>LinkedIn: </dt>
-                    <dd>@lauragift_</dd>
-                </dl>
+                        <dt>LinkedIn: </dt>
+                        <dd>@uxFeranmi</dd>
+                    </dl>
 
-                <h2 className={styles.h2}>SKILLS &amp; EXPERTISE</h2>
-                <p>
-                    HTML, CSS, JavaScript,
-                    Vue, React, Webpack,
-                    GraphQL, Jamstack, Node.js,
-                    SQL, Gridsome, Technical Writing,
-                    Adobe XD
-                </p>
+                    <h2 className={styles.h2}>SKILLS &amp; EXPERTISE</h2>
+                    <p>
+                        HTML, CSS, JavaScript,
+                        Vue, React, React Native, Angular,
+                        Webpack, GraphQL, Jamstack, Node.js,
+                        SCSS, Ionic, Technical Writing
+                    </p>
 
-                <h2 className={styles.h2}>EDUCATION</h2>
-                <dl>
-                    <dt>BSc. COMPUTER SCIENCE | 2015</dt>
-                    <dd>Houdegbe North American University, Cotonou, BN.</dd>
-                </dl>
-            </aside>
+                    <h2 className={styles.h2}>EDUCATION</h2>
+                    <ul>
+                        <li>
+                            <span>
+                                National Diploma in Computer Science | 2015
+                            </span>
+                            <small>Yaba College of Technology. Lagos, Nigeria.</small>
+                        </li>
+                    </ul>
+
+                    <h2 className={styles.h2}>Training</h2>
+                    <ul>
+                        <li>
+                            <span>Google Africa Developer Scholarship</span>
+                            <small>
+                                Relevant Coursework: Web security,
+                                Angular state management with redux
+                            </small>
+                        </li>
+                        <li>
+                            <span>HNG Internship (Finalist, HNGi6)</span>
+                        </li>
+                        <li>
+                            <span>DevC Training with Facebook and Andela</span>
+                        </li>
+                    </ul>
+                </aside>
             </div>
         </main>
     </>;
 };
 
 export default Resume;
-
-/*
-Feranmi Akinlade
-Frontend Engineer
-● Location: Lagos, Nigeria
-● Email: uxferanmi@gmail.com
-● Phone: +2348179925186
-● GitHub
-● LinkedIn
-● Website
-
-PROFILE
--
-
-WORK EXPERIENCE
--
-
-EDUCATION AND TRAINING
-● 2019
-○ Google Africa Developer Scholarship
-■ Relevant Coursework: Web security, Angular state management with
-redux
-○ HNG Internship (Finalist, HNGi6)
-○ DevC Training with Facebook and Andela
-● 2015
-○ National Diploma in Computer Science - Yaba College of Technology
-TECHNICAL SKILLS
-HTML, CSS, JavaScript,
-Node.js, React, React Native,
-SCSS, GraphQL, Angular, Ionic.
-*/
