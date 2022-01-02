@@ -100,7 +100,7 @@ const Resume = ()=> {
                                 modern devices with varying screen sizes.
                             </li>
                             <li>
-                                Wrote clean, readable and well documented code for easy maintenance and
+                                Wrote clean, readable code for easy maintenance and
                                 improvement in the future.
                             </li>
                             <li>
