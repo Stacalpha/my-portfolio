@@ -1,6 +1,12 @@
 // import Link from 'next/link';
 import Head from 'next/head';
 import styles from '../styles/resume.module.scss';
+import EmailIcon from '../components/icons/email';
+import GitHubIcon from '../components/icons/github';
+import LinkedInIcon from '../components/icons/linkedin';
+import LocationIcon from '../components/icons/location';
+import WebsiteIcon from '../components/icons/website';
+import TwitterIcon from '../components/icons/twitter';
 
 const Resume = ()=> {
     return <>
@@ -123,26 +129,56 @@ const Resume = ()=> {
 
                     <h2 className={styles.h2}>CONTACT</h2>
                     <dl>
-                        <dt>Email: </dt>
-                        <dd>uxferanmi@gmail.com</dd>
+                        <div className='flex align-center'>
+                            <dt className='inline-icon'>
+                                <span className='sr-only'>Email:</span>
+                                <EmailIcon />
+                            </dt>
+                            <dd>uxferanmi@gmail.com</dd>
+                        </div>
 
-                        <dt>Website: </dt>
-                        <dd>https://feranmi.dev</dd>
+                        <div className='flex align-center'>
+                            <dt className='inline-icon'>
+                                <span className='sr-only'>Personal Website:</span>
+                                <WebsiteIcon />
+                            </dt>
+                            <dd>https://feranmi.dev</dd>
+                        </div>
 
-                        <dt>Location: </dt>
-                        <dd>Lagos, Nigeria</dd>
+                        <div className='flex align-center'>
+                            <dt className='inline-icon'>
+                                <span className='sr-only'>Location:</span>
+                                <LocationIcon />
+                            </dt>
+                            <dd>Lagos, Nigeria</dd>
+                        </div>
                     </dl>
 
                     <h2 className={styles.h2}>SOCIAL</h2>
                     <dl>
-                        <dt>Twitter: </dt>
-                        <dd>@uxFeranmi</dd>
+                        <div className='flex align-center'>
+                            <dt className='inline-icon'>
+                                <span className='sr-only'>Twitter:</span>
+                                <TwitterIcon />
+                            </dt>
+                            <dd>@uxFeranmi</dd>
+                        </div>
 
-                        <dt>GitHub: </dt>
-                        <dd>@uxFeranmi</dd>
+                        <div className='flex align-center'>
+                            <dt className='inline-icon'>
+                                <span className='sr-only'>GitHub:</span>
+                                <GitHubIcon />
+                            </dt>
+                            <dd>@uxFeranmi</dd>
+                        </div>
 
-                        <dt>LinkedIn: </dt>
-                        <dd>@uxFeranmi</dd>
+                        <div className='flex align-center'>
+                            <dt className='inline-icon'>
+                                <span className='sr-only'>LinkedIn:</span>
+                                <LinkedInIcon />
+                            </dt>
+                            <dd>@uxFeranmi</dd>
+                        </div>
                     </dl>
 
                     <h2 className={styles.h2}>SKILLS &amp; EXPERTISE</h2>
@@ -154,7 +190,7 @@ const Resume = ()=> {
                     </p>
 
                     <h2 className={styles.h2}>EDUCATION</h2>
-                    <ul>
+                    <ul className='list-unstyled'>
                         <li>
                             <span className='d-block'>
                                 National Diploma: Computer Science
@@ -167,7 +203,7 @@ const Resume = ()=> {
                     </ul>
 
                     <h2 className={styles.h2}>Training</h2>
-                    <ul>
+                    <ul className='list-unstyled'>
                         <li>
                             <span className='d-block'>Google Africa Developer Scholarship</span>
                             <small>
