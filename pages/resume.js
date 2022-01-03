@@ -37,8 +37,8 @@ const Resume = ()=> {
                         <h3 className={styles.h3}>
                             Senior Frontend Engineer <br />
                             <small>
-                                <span>Helicarrier</span>
-                                <span>November 2021 - Present (3 months)</span>
+                                <span className='d-block'>Helicarrier</span>
+                                <span className='color-dark-grey'>November 2021 - Present (3 months)</span>
                             </small>
                         </h3>
                         <p>
@@ -59,8 +59,8 @@ const Resume = ()=> {
                         <h3 className={styles.h3}>
                             Frontend Engineer <br />
                             <small>
-                                <span>Helicarrier</span>
-                                <span>January 2020 - November 2021 (2 Years)</span>
+                                <span className='d-block'>Helicarrier</span>
+                                <span className='color-dark-grey'>January 2020 - November 2021 (2 Years)</span>
                             </small>
                         </h3>
                         <p>
@@ -82,8 +82,8 @@ const Resume = ()=> {
                         <h3 className={styles.h3}>
                             Web Developer <br />
                             <small>
-                                <span>Independent Freelancer</span>
-                                <span>January 2019 - January 2020 (1 Year)</span>
+                                <span className='d-block'>Independent Freelancer</span>
+                                <span className='color-dark-grey'>January 2019 - January 2020 (1 Year)</span>
                             </small>
                         </h3>
                         <p>
@@ -156,24 +156,27 @@ const Resume = ()=> {
                     <h2 className={styles.h2}>EDUCATION</h2>
                     <ul>
                         <li>
-                            <span>
-                                National Diploma in Computer Science | 2015
+                            <span className='d-block'>
+                                National Diploma: Computer Science
                             </span>
-                            <small>Yaba College of Technology. Lagos, Nigeria.</small>
+                            <small>
+                                <span>2015</span> <br />
+                                Yaba College of Technology. Lagos, Nigeria.
+                            </small>
                         </li>
                     </ul>
 
                     <h2 className={styles.h2}>Training</h2>
                     <ul>
                         <li>
-                            <span>Google Africa Developer Scholarship</span>
+                            <span className='d-block'>Google Africa Developer Scholarship</span>
                             <small>
                                 Relevant Coursework: Web security,
-                                Angular state management with redux
+                                State management with redux
                             </small>
                         </li>
                         <li>
-                            <span>HNG Internship (Finalist, HNGi6)</span>
+                            <span className='d-block'>HNG Internship (Finalist, HNGi6)</span>
                         </li>
                         <li>
                             <span>DevC Training with Facebook and Andela</span>
