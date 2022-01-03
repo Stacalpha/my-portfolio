@@ -6,12 +6,13 @@ const AppShell = (props)=> {
   return <>
     <Head key={'Site-wide <head> content'}>
       <title>Feranmi Akinlade | Front-end Engineer</title>
+      <link rel="icon" href="/favicon.png" type="image/png" />
 
       {/* FONTS */}
-      {/* <link rel="preload" href="fonts/webfont.woff2" as="font" type="font/woff2" crossOrigin /> */}
+      {/* <link rel="preload" href="fonts/webfont.woff2" as="font" type="font/woff2" crossOrigin="true" /> */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet"></link>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
     </Head>
 
     <header key={'Titlebar'} className={styles['site-header']}>
@@ -56,11 +57,9 @@ const AppShell = (props)=> {
             target="_blank" rel="noopener noreferrer">
           GitHub
         </a> &nbsp;
-        {/* <a href="https://stackoverflow.com/users/story/7665742"
-            target="_blank" rel="noopener noreferrer"
-            title="My developer story on Stack Overflow">
-          Stack Overflow
-        </a> &nbsp; */}
+        <a href="/resume">
+          Résumé
+        </a> &nbsp;
         <a href="https://www.linkedin.com/in/uxferanmi/"
             target="_blank" rel="noopener noreferrer" title="My LinkedIn profile">
           LinkedIn
