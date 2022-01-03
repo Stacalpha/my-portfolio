@@ -68,6 +68,16 @@ body {
 h1 {
   font-weight: 600;
   font-size: 1.6em;
+  line-height: 1em;
+  // text-transform: uppercase;
+
+  small {
+    display: block;
+    margin-top: 7px;
+    font-weight: normal;
+    font-size: 0.7em;
+    // text-transform: none;
+  }
 }
 
 h2 {
@@ -91,4 +101,55 @@ button {
 .disabled {
   opacity: .5;
   box-shadow: none;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.color-dark-grey {
+  color: #525252 !important;
+}
+
+.color-light-grey {
+  color: #6F6F6F !important;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+.list-unstyled {
+  list-style-type: none;
+  padding-left: unset;
+}
+
+.sr-only {
+  display: block;
+  position: fixed;
+  height: 0;
+  width: 0;
+  top: -1000vw;
+  left: -1000vw;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between !important;
+}
+
+.align-center {
+  align-items: center !important;
+}
+
+.inline-icon {
+  > svg,
+  > img {
+    height: 1em !important;
+    display: inline-block;
+    margin-right: 16px;
+  }
 }

@@ -1,0 +1,88 @@
+.main-content {
+    background-color: hsl(206, 4%, 34%);
+    
+    @media (orientation: landscape) {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+    
+    // @media (orientation: portrait) {
+    //     flex-direction: column;
+    // }
+}
+
+// 1 : 1.42 width to height ratio. A4 paper dimensions.
+.inner-wrapper {
+    // display: flex;
+    // flex-flow: row-reverse nowrap;
+
+    max-width: 100vmin;
+    margin: 0 auto;
+    display: grid;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+
+    grid-template-columns: 1fr 3.2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "sidebar main-section";
+
+    @media print {
+        // background-color: grey;
+    }
+    @media screen {
+        background-image: url('/assets/resume-bg.png');
+        background-size: cover;
+    }
+}
+
+.main-section {
+    grid-area: main-section;
+    padding: 20px;
+    background-color: var(--bg-color);
+    color: black;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.8);
+}
+
+.sidebar {
+    grid-area: sidebar;
+    padding: 20px;
+}
+
+.display-picture {
+    display: block;
+    object-fit: cover;
+    object-position: center 20%;
+  
+    border-radius: 1000px;
+  
+    // border: 1px solid var(--bg-color);
+    // box-shadow: var(--primary-shadow);
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.8);
+  
+    border: 3px solid var(--accent-color);
+    // box-shadow: var(--accent-shadow-large);
+  
+    height: 200px;
+    width: 200px;
+    flex-shrink: 0;
+    
+    @media screen and (min-width: 1333px) {
+      height: 15vw;
+      width: 15vw;
+    }
+  
+    @media screen and (min-width: 1666px) {
+      height: 250px;
+      width: 250px;
+    }
+}
+
+.h2 {
+    margin-top: 30px;
+}
+
+.h3 {
+    margin-top: 20px;
+}
