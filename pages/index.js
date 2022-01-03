@@ -57,7 +57,8 @@ const Home = ()=> {
         </p>
         <p>
           I'm always excited to talk about web accessibility and user experience in general.
-          I would love to speak at your event. Do contact me if you're organising one.
+          I would love to speak at your event.
+          Do <a href="mailto:speaking@feranmi.dev">contact me</a> if you're organising one.
         </p>
       </div>
     </section>
@@ -76,9 +77,9 @@ const Home = ()=> {
         </p>
         <p>
           If you would like me to write for your publication or some such,
-          please <a href="mailto:uxFeranmi@gmail.com">contact me</a>.
+          please <a href="mailto:writing@feranmi.dev">contact me</a>.
         </p>
-        
+
         {/*<p>
           <button className={styles.button}>
             Click me
