@@ -35,7 +35,7 @@ const AppShell = (props)=> {
             </Link>
           </li>
           <li className={styles['main-nav__item']}>
-            <a href="mailto:uxFeranmi@gmail.com" title="Send me an email">
+            <a href="mailto:hello@feranmi.dev" title="Send me an email">
               Contact me
             </a>
           </li>
@@ -64,7 +64,7 @@ const AppShell = (props)=> {
             target="_blank" rel="noopener noreferrer" title="My LinkedIn profile">
           LinkedIn
         </a> &nbsp;
-        <a href="mailto:uxFeranmi@gmail.com" title="Send me an email">
+        <a href="mailto:hello@feranmi.dev" title="Send me an email">
           Contact me
         </a> &nbsp;
       </address>

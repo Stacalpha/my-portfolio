@@ -134,7 +134,11 @@ const Resume = ()=> {
                                 <span className='sr-only'>Email:</span>
                                 <EmailIcon />
                             </dt>
-                            <dd>uxferanmi@gmail.com</dd>
+                            <dd>
+                                <a href="mailto:hello@feranmi.dev">
+                                    hello@feranmi.dev
+                                </a>
+                            </dd>
                         </div>
 
                         <div className='flex align-center'>
