@@ -57,11 +57,9 @@ const AppShell = (props)=> {
             target="_blank" rel="noopener noreferrer">
           GitHub
         </a> &nbsp;
-        {/* <a href="https://stackoverflow.com/users/story/7665742"
-            target="_blank" rel="noopener noreferrer"
-            title="My developer story on Stack Overflow">
-          Stack Overflow
-        </a> &nbsp; */}
+        <a href="/resume">
+          Résumé
+        </a> &nbsp;
         <a href="https://www.linkedin.com/in/uxferanmi/"
             target="_blank" rel="noopener noreferrer" title="My LinkedIn profile">
           LinkedIn
