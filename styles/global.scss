@@ -124,6 +124,10 @@ ul, ol {
   padding-left: unset;
 }
 
+.list-noindent {
+  padding-left: unset;
+}
+
 .sr-only {
   display: block;
   position: fixed;
@@ -205,4 +209,16 @@ ul, ol {
 
 .mb-s {
   margin-bottom: 8px;
+}
+
+.mb-xs {
+  margin-bottom: 4px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
 }

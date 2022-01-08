@@ -171,40 +171,99 @@ const Resume = ()=> {
                     </dl>
 
                     <h2 className={styles.sidebar_h2}>SKILLS &amp; EXPERTISE</h2>
-                    <p>
-                        HTML, CSS, JavaScript,
-                        Vue, React, React Native, Angular,
-                        Webpack, GraphQL, Jamstack, Node.js,
-                        SCSS, Ionic, Technical Writing
-                    </p>
+                    <ul>
+                        <li className='mb-xs'>
+                            HTML
+                        </li>
+                        <li className='mb-xs'>
+                            CSS, SCSS
+                        </li>
+                        <li className='mb-xs'>
+                            JavaScript
+                        </li>
+                        <li className='mb-xs'>
+                            WAI-ARIA
+                        </li>
+                        <li className='mb-xs'>
+                            React, Next.js, Vue.js
+                        </li>
+                        <li className='mb-xs'>
+                            Webpack, Babel
+                        </li>
+                        <li className='mb-xs'>
+                            Node.js
+                        </li>
+                        <li className='mb-xs'>
+                            React Native
+                        </li>
+                        <li className='mb-xs'>
+                            Technical Writing
+                        </li>
+                    </ul>
 
                     <h2 className={styles.sidebar_h2}>EDUCATION</h2>
                     <ul className='list-unstyled'>
                         <li>
-                            <span className='d-block'>
+                            <span className='d-block text-bold mb-xs'>
                                 National Diploma: Computer Science
                             </span>
-                            <small>
-                                <span>2015</span> <br />
-                                Yaba College of Technology. Lagos, Nigeria.
-                            </small>
+                            <span>
+                                <span className='d-block mb-xs italic'>2015</span>
+                                Yaba College of Technology, <br />
+                                Lagos, Nigeria.
+                            </span>
                         </li>
                     </ul>
 
                     <h2 className={styles.sidebar_h2}>Training</h2>
-                    <ul className='list-unstyled'>
+                    <ul classNameX='list-noindent'>
                         <li className='mb'>
-                            <span className='d-block'>Google Africa Developer Scholarship</span>
-                            <small>
-                                Relevant Coursework: Web security,
-                                State management with redux
-                            </small>
+                            <a href='https://help.pluralsight.com/help/google-africa-developer-scholarship-2021'
+                                    target="_blank"
+                                    rel='noreferrer noopener'
+                                    className='d-block mb-s'>
+                                Google Africa Developer Scholarship
+                            </a>
+                            <span className='d-block mb-xs'>
+                                Mobile Web Specialist
+                            </span>
+                            <span className='italic'>
+                                <a href="https://www.pluralsight.com/"
+                                        target="_blank"
+                                        rel='noreferrer noopener'>
+                                    Pluralsight
+                                </a> | 2019
+                            </span>
                         </li>
                         <li className='mb'>
-                            <span className='d-block'>HNG Internship (Finalist, HNGi6)</span>
+                            <a href='https://internship.zuri.team/'
+                                    target="_blank"
+                                    rel='noreferrer noopener'
+                                    className='d-block mb-s'>
+                                HNG Internship
+                            </a>
+                            <span className='d-block mb-xs'>
+                                Frontend Development
+                            </span>
+                            <span className='italic'>2019</span>
                         </li>
                         <li className='mb'>
-                            <span>DevC Training with Facebook and Andela</span>
+                            <a href='https://andela.com/alc/devc-training-with-andela-2019/'
+                                    target="_blank"
+                                    rel='noreferrer noopener'
+                                    className='d-block mb-s'>
+                                DevC Training with Facebook and Andela
+                            </a>
+                            <span className='d-block mb-xs'>
+                                Core track, Web
+                            </span>
+                            <span className='italic'>
+                                <a href="https://openclassrooms.com"
+                                        target="_blank"
+                                        rel='noreferrer noopener'>
+                                    OpenClassrooms
+                                </a> | 2019
+                            </span>
                         </li>
                     </ul>
 
