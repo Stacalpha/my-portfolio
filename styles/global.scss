@@ -149,6 +149,7 @@ ul, ol {
   > svg,
   > img {
     height: 1em !important;
+    width: 1em;
     display: inline-block;
     margin-right: 16px;
     vertical-align: middle;
@@ -160,8 +161,8 @@ ul, ol {
   align-items: center;
   justify-content: flex-start;
   margin-right: calc(0.2em + 16px);
-  height: 0.8em;
-  width: 0.8em;
+  height: 1em;
+  width: 1em;
   position: relative;
   left: 2px;
   top: 5px;
@@ -181,15 +182,16 @@ ul, ol {
     > svg,
     > img {
       height: 1.4em !important;
+      width: auto;
       position: relative;
       top: 2.5px;
     }
   }
 
   .inline-icon__icon {
-    margin-right: calc(0.5em + 16px);
-    height: 1em;
-    width: 1em;
+    // margin-right: calc(0.5em + 16px);
+    height: 1.3em;
+    width: 1.3em;
     > svg,
     > img {
       height: 1.5em !important;
