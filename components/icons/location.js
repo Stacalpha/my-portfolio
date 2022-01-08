@@ -18,7 +18,7 @@ const LocationIcon = ()=> {
             </style>*/}
             <g>
                 <path
-                    class="location-icon-st0"
+                    className="location-icon-st0"
                     style={{
                         'fill-rule': 'evenodd',
                         'clip-rule': 'evenodd',

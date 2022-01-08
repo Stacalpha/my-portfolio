@@ -1,12 +1,17 @@
 // import Link from 'next/link';
 import Head from 'next/head';
 import styles from '../styles/resume.module.scss';
-import EmailIcon from '../components/icons/email';
+// import EmailIcon from '../components/icons/email';
+import MailIcon from '../components/icons/mail';
 import GitHubIcon from '../components/icons/github';
 import LinkedInIcon from '../components/icons/linkedin';
-import LocationIcon from '../components/icons/location';
-import WebsiteIcon from '../components/icons/website';
+// import LocationIcon from '../components/icons/location';
+// import WebsiteIcon from '../components/icons/website';
+// import ProfileWebsiteIcon from '../components/icons/profile-website';
 import TwitterIcon from '../components/icons/twitter';
+import HyperlinkIcon from '../components/icons/hyperlink';
+import LocationPinIcon from '../components/icons/pin-location';
+import InstagramIcon from '../components/icons/instagram';
 
 const Resume = ()=> {
     return <>
@@ -132,7 +137,8 @@ const Resume = ()=> {
                         <div className='flex align-center mb'>
                             <dt className='inline-icon'>
                                 <span className='sr-only'>Email:</span>
-                                <EmailIcon />
+                                {/* <EmailIcon /> */}
+                                <MailIcon />
                             </dt>
                             <dd>
                                 <a href="mailto:hello@feranmi.dev">
@@ -144,15 +150,21 @@ const Resume = ()=> {
                         <div className='flex align-center mb'>
                             <dt className='inline-icon'>
                                 <span className='sr-only'>Personal Website:</span>
-                                <WebsiteIcon />
+                                {/* <WebsiteIcon /> */}
+                                <HyperlinkIcon />
                             </dt>
-                            <dd>https://feranmi.dev</dd>
+                            <dd>
+                                <a href="https://feranmi.dev">
+                                    https://feranmi.dev
+                                </a>
+                            </dd>
                         </div>
 
                         <div className='flex align-center mb'>
                             <dt className='inline-icon'>
                                 <span className='sr-only'>Location:</span>
-                                <LocationIcon />
+                                {/* <LocationIcon /> */}
+                                <LocationPinIcon />
                             </dt>
                             <dd>Lagos, Nigeria</dd>
                         </div>
@@ -200,28 +212,6 @@ const Resume = ()=> {
                     <dl className='socials'>
                         <div className='flex align-center mb'>
                             <dt className='inline-icon'>
-                                <span className='sr-only'>Twitter:</span>
-                                <span className='inline-icon__icon'
-                                        style={{
-                                            backgroundColor: 'white',
-                                            borderRadius: '1000px',
-                                        }}>
-                                    <TwitterIcon />
-                                </span>
-                            </dt>
-                            <dd>@uxFeranmi</dd>
-                        </div>
-
-                        <div className='flex align-center mb'>
-                            <dt className='inline-icon'>
-                                <span className='sr-only'>GitHub:</span>
-                                <GitHubIcon />
-                            </dt>
-                            <dd>@uxFeranmi</dd>
-                        </div>
-
-                        <div className='flex align-center mb'>
-                            <dt className='inline-icon'>
                                 <span className='sr-only'>LinkedIn:</span>
                                 <span className='inline-icon__icon'
                                         style={{
@@ -231,7 +221,59 @@ const Resume = ()=> {
                                     <LinkedInIcon />
                                 </span>
                             </dt>
-                            <dd>@uxFeranmi</dd>
+                            <dd>
+                                <a href="https://linkedin.com/in/uxFeranmi">
+                                    @uxFeranmi
+                                </a>
+                            </dd>
+                        </div>
+
+                        <div className='flex align-center mb'>
+                            <dt className='inline-icon'>
+                                <span className='sr-only'>GitHub:</span>
+                                <GitHubIcon />
+                            </dt>
+                            <dd>
+                                <a href="https://github.com/uxFeranmi">
+                                    @uxFeranmi
+                                </a>
+                            </dd>
+                        </div>
+
+                        <div className='flex align-center mb'>
+                            <dt className='inline-icon'>
+                                <span className='sr-only'>Twitter:</span>
+                                <span className='inline-icon__icon'
+                                        style={{
+                                            backgroundColor: 'white',
+                                            borderRadius: '1000px',
+                                        }}>
+                                    <TwitterIcon />
+                                </span>
+                            </dt>
+                            <dd>
+                                <a href="https://twitter.com/uxFeranmi">
+                                    @uxFeranmi
+                                </a>
+                            </dd>
+                        </div>
+
+                        <div className='flex align-center mb'>
+                            <dt className='inline-icon'>
+                                <span className='sr-only'>Instagram:</span>
+                                <span className='inline-icon__icon'
+                                        style={{
+                                            backgroundColor: 'white',
+                                            borderRadius: '1000px',
+                                        }}>
+                                    <InstagramIcon />
+                                </span>
+                            </dt>
+                            <dd>
+                                <a href="https://instagram.com/feranmi.dev">
+                                    @feranmi.dev
+                                </a>
+                            </dd>
                         </div>
                     </dl>
                 </aside>
