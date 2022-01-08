@@ -158,45 +158,6 @@ const Resume = ()=> {
                         </div>
                     </dl>
 
-                    <h2 className={styles.sidebar_h2}>SOCIAL</h2>
-                    <dl>
-                        <div className='flex align-center'>
-                            <dt className='inline-icon'>
-                                <span className='sr-only'>Twitter:</span>
-                                <span className='inline-icon__icon'
-                                        style={{
-                                            backgroundColor: 'white',
-                                            borderRadius: '1000px',
-                                        }}>
-                                    <TwitterIcon />
-                                </span>
-                            </dt>
-                            <dd>@uxFeranmi</dd>
-                        </div>
-
-                        <div className='flex align-center'>
-                            <dt className='inline-icon'>
-                                <span className='sr-only'>GitHub:</span>
-                                <GitHubIcon />
-                            </dt>
-                            <dd>@uxFeranmi</dd>
-                        </div>
-
-                        <div className='flex align-center'>
-                            <dt className='inline-icon'>
-                                <span className='sr-only'>LinkedIn:</span>
-                                <span className='inline-icon__icon'
-                                        style={{
-                                            backgroundColor: 'white',
-                                            borderRadius: '1000px',
-                                        }}>
-                                    <LinkedInIcon />
-                                </span>
-                            </dt>
-                            <dd>@uxFeranmi</dd>
-                        </div>
-                    </dl>
-
                     <h2 className={styles.sidebar_h2}>SKILLS &amp; EXPERTISE</h2>
                     <p>
                         HTML, CSS, JavaScript,
@@ -220,20 +181,59 @@ const Resume = ()=> {
 
                     <h2 className={styles.sidebar_h2}>Training</h2>
                     <ul className='list-unstyled'>
-                        <li>
+                        <li className='mb'>
                             <span className='d-block'>Google Africa Developer Scholarship</span>
                             <small>
                                 Relevant Coursework: Web security,
                                 State management with redux
                             </small>
                         </li>
-                        <li>
+                        <li className='mb'>
                             <span className='d-block'>HNG Internship (Finalist, HNGi6)</span>
                         </li>
-                        <li>
+                        <li className='mb'>
                             <span>DevC Training with Facebook and Andela</span>
                         </li>
                     </ul>
+
+                    <h2 className={styles.sidebar_h2}>SOCIAL</h2>
+                    <dl className='socials'>
+                        <div className='flex align-center mb-s'>
+                            <dt className='inline-icon'>
+                                <span className='sr-only'>Twitter:</span>
+                                <span className='inline-icon__icon'
+                                        style={{
+                                            backgroundColor: 'white',
+                                            borderRadius: '1000px',
+                                        }}>
+                                    <TwitterIcon />
+                                </span>
+                            </dt>
+                            <dd>@uxFeranmi</dd>
+                        </div>
+
+                        <div className='flex align-center mb-s'>
+                            <dt className='inline-icon'>
+                                <span className='sr-only'>GitHub:</span>
+                                <GitHubIcon />
+                            </dt>
+                            <dd>@uxFeranmi</dd>
+                        </div>
+
+                        <div className='flex align-center mb-s'>
+                            <dt className='inline-icon'>
+                                <span className='sr-only'>LinkedIn:</span>
+                                <span className='inline-icon__icon'
+                                        style={{
+                                            backgroundColor: 'white',
+                                            borderRadius: '1000px',
+                                        }}>
+                                    <LinkedInIcon />
+                                </span>
+                            </dt>
+                            <dd>@uxFeranmi</dd>
+                        </div>
+                    </dl>
                 </aside>
             </div>
         </main>

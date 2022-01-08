@@ -158,18 +158,48 @@ ul, ol {
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
-  margin-right: 16px;
-  height: 0.75em;
-  width: 0.75em;
+  margin-right: calc(0.2em + 16px);
+  height: 0.8em;
+  width: 0.8em;
   position: relative;
   left: 2px;
+  top: 5px;
   > svg,
   > img {
-    height: 1em !important;
+    height: 1.2em !important;
     width: auto;
     flex-shrink: 0;
     display: inline-block;
     position: relative;
     left: -2px;
   }
+}
+
+.socials {
+  .inline-icon {
+    > svg,
+    > img {
+      height: 1.5em !important;
+      position: relative;
+      top: 3px;
+    }
+  }
+
+  .inline-icon__icon {
+    margin-right: calc(0.5em + 16px);
+    height: 1em;
+    width: 1em;
+    > svg,
+    > img {
+      height: 1.5em !important;
+    }
+  }
+}
+
+.mb {
+  margin-bottom: 16px;
+}
+
+.mb-s {
+  margin-bottom: 8px;
 }
