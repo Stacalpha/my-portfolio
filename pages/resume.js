@@ -127,9 +127,9 @@ const Resume = ()=> {
                 <aside key={'Sidebar'} className={styles['sidebar']}>
                     <img src="/assets/dp.jpg" className={styles['display-picture']} />
 
-                    <h2 className={styles.h2}>CONTACT</h2>
+                    <h2 className={styles.sidebar_h2}>CONTACT</h2>
                     <dl>
-                        <div className='flex align-center'>
+                        <div className='flex align-center mb'>
                             <dt className='inline-icon'>
                                 <span className='sr-only'>Email:</span>
                                 <EmailIcon />
@@ -141,7 +141,7 @@ const Resume = ()=> {
                             </dd>
                         </div>
 
-                        <div className='flex align-center'>
+                        <div className='flex align-center mb'>
                             <dt className='inline-icon'>
                                 <span className='sr-only'>Personal Website:</span>
                                 <WebsiteIcon />
@@ -149,7 +149,7 @@ const Resume = ()=> {
                             <dd>https://feranmi.dev</dd>
                         </div>
 
-                        <div className='flex align-center'>
+                        <div className='flex align-center mb'>
                             <dt className='inline-icon'>
                                 <span className='sr-only'>Location:</span>
                                 <LocationIcon />
@@ -158,34 +158,7 @@ const Resume = ()=> {
                         </div>
                     </dl>
 
-                    <h2 className={styles.h2}>SOCIAL</h2>
-                    <dl>
-                        <div className='flex align-center'>
-                            <dt className='inline-icon'>
-                                <span className='sr-only'>Twitter:</span>
-                                <TwitterIcon />
-                            </dt>
-                            <dd>@uxFeranmi</dd>
-                        </div>
-
-                        <div className='flex align-center'>
-                            <dt className='inline-icon'>
-                                <span className='sr-only'>GitHub:</span>
-                                <GitHubIcon />
-                            </dt>
-                            <dd>@uxFeranmi</dd>
-                        </div>
-
-                        <div className='flex align-center'>
-                            <dt className='inline-icon'>
-                                <span className='sr-only'>LinkedIn:</span>
-                                <LinkedInIcon />
-                            </dt>
-                            <dd>@uxFeranmi</dd>
-                        </div>
-                    </dl>
-
-                    <h2 className={styles.h2}>SKILLS &amp; EXPERTISE</h2>
+                    <h2 className={styles.sidebar_h2}>SKILLS &amp; EXPERTISE</h2>
                     <p>
                         HTML, CSS, JavaScript,
                         Vue, React, React Native, Angular,
@@ -193,7 +166,7 @@ const Resume = ()=> {
                         SCSS, Ionic, Technical Writing
                     </p>
 
-                    <h2 className={styles.h2}>EDUCATION</h2>
+                    <h2 className={styles.sidebar_h2}>EDUCATION</h2>
                     <ul className='list-unstyled'>
                         <li>
                             <span className='d-block'>
@@ -206,22 +179,61 @@ const Resume = ()=> {
                         </li>
                     </ul>
 
-                    <h2 className={styles.h2}>Training</h2>
+                    <h2 className={styles.sidebar_h2}>Training</h2>
                     <ul className='list-unstyled'>
-                        <li>
+                        <li className='mb'>
                             <span className='d-block'>Google Africa Developer Scholarship</span>
                             <small>
                                 Relevant Coursework: Web security,
                                 State management with redux
                             </small>
                         </li>
-                        <li>
+                        <li className='mb'>
                             <span className='d-block'>HNG Internship (Finalist, HNGi6)</span>
                         </li>
-                        <li>
+                        <li className='mb'>
                             <span>DevC Training with Facebook and Andela</span>
                         </li>
                     </ul>
+
+                    <h2 className={styles.sidebar_h2}>SOCIAL</h2>
+                    <dl className='socials'>
+                        <div className='flex align-center mb'>
+                            <dt className='inline-icon'>
+                                <span className='sr-only'>Twitter:</span>
+                                <span className='inline-icon__icon'
+                                        style={{
+                                            backgroundColor: 'white',
+                                            borderRadius: '1000px',
+                                        }}>
+                                    <TwitterIcon />
+                                </span>
+                            </dt>
+                            <dd>@uxFeranmi</dd>
+                        </div>
+
+                        <div className='flex align-center mb'>
+                            <dt className='inline-icon'>
+                                <span className='sr-only'>GitHub:</span>
+                                <GitHubIcon />
+                            </dt>
+                            <dd>@uxFeranmi</dd>
+                        </div>
+
+                        <div className='flex align-center mb'>
+                            <dt className='inline-icon'>
+                                <span className='sr-only'>LinkedIn:</span>
+                                <span className='inline-icon__icon'
+                                        style={{
+                                            backgroundColor: 'white',
+                                            borderRadius: '1000px',
+                                        }}>
+                                    <LinkedInIcon />
+                                </span>
+                            </dt>
+                            <dd>@uxFeranmi</dd>
+                        </div>
+                    </dl>
                 </aside>
             </div>
         </main>
