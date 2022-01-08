@@ -127,7 +127,7 @@ const Resume = ()=> {
                 <aside key={'Sidebar'} className={styles['sidebar']}>
                     <img src="/assets/dp.jpg" className={styles['display-picture']} />
 
-                    <h2 className={styles.h2}>CONTACT</h2>
+                    <h2 className={styles.sidebar_h2}>CONTACT</h2>
                     <dl>
                         <div className='flex align-center'>
                             <dt className='inline-icon'>
@@ -158,12 +158,18 @@ const Resume = ()=> {
                         </div>
                     </dl>
 
-                    <h2 className={styles.h2}>SOCIAL</h2>
+                    <h2 className={styles.sidebar_h2}>SOCIAL</h2>
                     <dl>
                         <div className='flex align-center'>
                             <dt className='inline-icon'>
                                 <span className='sr-only'>Twitter:</span>
-                                <TwitterIcon />
+                                <span className='inline-icon__icon'
+                                        style={{
+                                            backgroundColor: 'white',
+                                            borderRadius: '1000px',
+                                        }}>
+                                    <TwitterIcon />
+                                </span>
                             </dt>
                             <dd>@uxFeranmi</dd>
                         </div>
@@ -179,13 +185,19 @@ const Resume = ()=> {
                         <div className='flex align-center'>
                             <dt className='inline-icon'>
                                 <span className='sr-only'>LinkedIn:</span>
-                                <LinkedInIcon />
+                                <span className='inline-icon__icon'
+                                        style={{
+                                            backgroundColor: 'white',
+                                            borderRadius: '1000px',
+                                        }}>
+                                    <LinkedInIcon />
+                                </span>
                             </dt>
                             <dd>@uxFeranmi</dd>
                         </div>
                     </dl>
 
-                    <h2 className={styles.h2}>SKILLS &amp; EXPERTISE</h2>
+                    <h2 className={styles.sidebar_h2}>SKILLS &amp; EXPERTISE</h2>
                     <p>
                         HTML, CSS, JavaScript,
                         Vue, React, React Native, Angular,
@@ -193,7 +205,7 @@ const Resume = ()=> {
                         SCSS, Ionic, Technical Writing
                     </p>
 
-                    <h2 className={styles.h2}>EDUCATION</h2>
+                    <h2 className={styles.sidebar_h2}>EDUCATION</h2>
                     <ul className='list-unstyled'>
                         <li>
                             <span className='d-block'>
@@ -206,7 +218,7 @@ const Resume = ()=> {
                         </li>
                     </ul>
 
-                    <h2 className={styles.h2}>Training</h2>
+                    <h2 className={styles.sidebar_h2}>Training</h2>
                     <ul className='list-unstyled'>
                         <li>
                             <span className='d-block'>Google Africa Developer Scholarship</span>

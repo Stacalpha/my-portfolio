@@ -153,3 +153,23 @@ ul, ol {
     margin-right: 16px;
   }
 }
+
+.inline-icon__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 16px;
+  height: 0.75em;
+  width: 0.75em;
+  position: relative;
+  left: 2px;
+  > svg,
+  > img {
+    height: 1em !important;
+    width: auto;
+    flex-shrink: 0;
+    display: inline-block;
+    position: relative;
+    left: -2px;
+  }
+}
