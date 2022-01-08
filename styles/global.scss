@@ -151,6 +151,7 @@ ul, ol {
     height: 1em !important;
     display: inline-block;
     margin-right: 16px;
+    vertical-align: middle;
   }
 }
 
@@ -179,9 +180,9 @@ ul, ol {
   .inline-icon {
     > svg,
     > img {
-      height: 1.5em !important;
+      height: 1.4em !important;
       position: relative;
-      top: 3px;
+      top: 2.5px;
     }
   }
 

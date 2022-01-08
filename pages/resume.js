@@ -129,7 +129,7 @@ const Resume = ()=> {
 
                     <h2 className={styles.sidebar_h2}>CONTACT</h2>
                     <dl>
-                        <div className='flex align-center'>
+                        <div className='flex align-center mb'>
                             <dt className='inline-icon'>
                                 <span className='sr-only'>Email:</span>
                                 <EmailIcon />
@@ -141,7 +141,7 @@ const Resume = ()=> {
                             </dd>
                         </div>
 
-                        <div className='flex align-center'>
+                        <div className='flex align-center mb'>
                             <dt className='inline-icon'>
                                 <span className='sr-only'>Personal Website:</span>
                                 <WebsiteIcon />
@@ -149,7 +149,7 @@ const Resume = ()=> {
                             <dd>https://feranmi.dev</dd>
                         </div>
 
-                        <div className='flex align-center'>
+                        <div className='flex align-center mb'>
                             <dt className='inline-icon'>
                                 <span className='sr-only'>Location:</span>
                                 <LocationIcon />
@@ -198,7 +198,7 @@ const Resume = ()=> {
 
                     <h2 className={styles.sidebar_h2}>SOCIAL</h2>
                     <dl className='socials'>
-                        <div className='flex align-center mb-s'>
+                        <div className='flex align-center mb'>
                             <dt className='inline-icon'>
                                 <span className='sr-only'>Twitter:</span>
                                 <span className='inline-icon__icon'
@@ -212,7 +212,7 @@ const Resume = ()=> {
                             <dd>@uxFeranmi</dd>
                         </div>
 
-                        <div className='flex align-center mb-s'>
+                        <div className='flex align-center mb'>
                             <dt className='inline-icon'>
                                 <span className='sr-only'>GitHub:</span>
                                 <GitHubIcon />
@@ -220,7 +220,7 @@ const Resume = ()=> {
                             <dd>@uxFeranmi</dd>
                         </div>
 
-                        <div className='flex align-center mb-s'>
+                        <div className='flex align-center mb'>
                             <dt className='inline-icon'>
                                 <span className='sr-only'>LinkedIn:</span>
                                 <span className='inline-icon__icon'
