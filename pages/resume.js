@@ -61,34 +61,34 @@ const Resume = ()=> {
                             </small>
                         </h3>
                         <p className='mb-s'>
-                            Helicarrier is financially connecting Africans across the world
-                            with cryptocurrency infrastructure.
+                            As a Senior Engineer, I am leading the architecture and development
+                            of <a href='https://sendcash.africa'
+                                target='_blank'
+                                rel='noreferrer noopener'
+                                className='color-unset hover-underline fw-normal'
+                            >Sendcash</a>&mdash;a hybrid web and mobile consumer app for
+                            cryptocurrency-powered cross-border remittance.
                         </p>
                         <ul className='mb-l'>
-                            <li>
-                                Led the architecture and development of a hybrid web and mobile
-                                consumer app for cryptocurrency-powered cross-border remittance
+                            <li className='mb-xs'>
+                                Set up a frontend architecture optimized for high performance,
+                                with code splitting, asset preloading and server-side rendering
                             </li>
-                            <li>
-                                Conducted code reviews, driving a high standard of code quality
+                            <li className='mb-xs'>
+                                Conducting code reviews, driving a high standard of code quality
                                 and user experience
                             </li>
-                            <li>
-                                Improved frontend architecture with code splitting,
-                                asset preloading and eliminating unneeded dependencies to
-                                achieve great performance gains.
+                            <li className='mb-xs'>
+                                Pioneered and maintaining internal documentaion of the frontend codebase.
                             </li>
-                            <li>
-                                Pioneered and maintained internal documentaion of the frontend codebase.
-                            </li>
-                            <li>
+                            <li className='mb-xs'>
                                 Evangelizing accessibility standards in product
                             </li>
-                            <li>
-                                Coordinating a distributed team to develop and ship a new features
+                            <li className='mb-xs'>
+                                Coordinating a distributed team to develop and ship new features
                                 in a timely manner
                             </li>
-                            <li>
+                            <li className='mb-xs'>
                                 Providing support and guidance to other team members
                             </li>
                             <li>
@@ -112,23 +112,18 @@ const Resume = ()=> {
                                 <span>Jan 2020 &ndash; Nov 2021</span>
                             </small>
                         </h3>
-                        <p className='mb-s'>
-                            Helicarrier is financially connecting Africans across the world
-                            with cryptocurrency infrastructure.
-                        </p>
                         <ul className='mb-l'>
-                            <li>
-                                Conducted accessibility tests and refactored much of the codebase
-                                to implement necessary improvements
-                            </li>
-                            <li>
-                                Collaborated with peers and stakeholders in a fast-paced distributed team.
-                            </li>
-                            <li>
+                            <li className='mb-xs'>
                                 Worked across multiple products with a varied tech stack that
                                 included React, React Native, Vue.js, Angular, Ionic, Node.js, EJS, and more.
                             </li>
-                            <li>
+                            <li className='mb-xs'>
+                                Conducted accessibility tests and implement necessary improvements
+                            </li>
+                            <li className='mb-xs'>
+                                Collaborated with peers and stakeholders in a fast-paced distributed team.
+                            </li>
+                            <li className='mb-xs'>
                                 Developed hybrid mobile apps with Ionic and React Native.
                             </li>
                             <li>
@@ -149,25 +144,25 @@ const Resume = ()=> {
                             for small businesses, helping them expand their reach.
                         </p>
                         <ul>
-                            <li>
+                            <li className='mb-xs'>
                                 Communicating effectively with the client to scope out project requirements
                             </li>
-                            <li>
+                            <li className='mb-xs'>
                                 Created fully responsive layouts, ensuring a
                                 great viewing experience for both mobile and desktop users
                             </li>
-                            <li>
+                            <li className='mb-xs'>
                                 Used semantic markup to create accessible web pages
                             </li>
-                            <li>
+                            <li className='mb-xs'>
                                 Consumed third-party REST APIs to facilitate collection of data from users via web
                                 forms without a server-side
                             </li>
-                            <li>
+                            <li className='mb-xs'>
                                 Favored the Jamstack principle of prerendered static pages for improved load
                                 performance
                             </li>
-                            <li>
+                            <li className='mb-xs'>
                                 Worked with WordPress and the WooCommerce API to build a fully
                                 customized UI for an online store
                             </li>
