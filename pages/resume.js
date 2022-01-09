@@ -66,20 +66,17 @@ const Resume = ()=> {
                         </p>
                         <ul className='mb-l'>
                             <li>
-                                Conducted code reviews, driving a high standard of code quality
+                                Led the architecture and development of a hybrid web and mobile
+                                consumer app for cryptocurrency-powered cross-border remittance
                             </li>
                             <li>
-                                Improved the frontend app's architecture with code splitting,
+                                Conducted code reviews, driving a high standard of code quality
+                                and user experience
+                            </li>
+                            <li>
+                                Improved frontend architecture with code splitting,
                                 asset preloading and eliminating unneeded dependencies to
                                 achieve great performance gains.
-                            </li>
-                            <li>
-                                ////
-                                Single handedly built (and re-engineered where necessary) React
-                                components and re-designed most of the pages, including public ones
-                                like the homepage, user auth, pricing, tutors listing and tutor
-                                profile pages.
-                                ////
                             </li>
                             <li>
                                 Pioneered and maintained internal documentaion of the frontend codebase.
@@ -88,14 +85,15 @@ const Resume = ()=> {
                                 Evangelizing accessibility standards in product
                             </li>
                             <li>
-                                Coordinated a distributed team to develop and ship a new product
+                                Coordinating a distributed team to develop and ship a new features
+                                in a timely manner
                             </li>
                             <li>
-                                Provided support (mentored?) to team mates
+                                Providing support and guidance to other team members
                             </li>
                             <li>
                                 Conducted interviews and worked with the VP of Engineering
-                                to find the best talent to grow the Frontend team.
+                                to find the best talent to grow the Frontend team
                             </li>
                         </ul>
 
