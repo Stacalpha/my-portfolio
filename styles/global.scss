@@ -111,6 +111,22 @@ button {
   color: #525252 !important;
 }
 
+.color-dark {
+  color: #000 !important;
+}
+
+.color-unset {
+  color: unset !important;
+}
+
+.hover-underline {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: dotted underline;
+  }
+}
+
 .color-light-grey {
   color: #6F6F6F !important;
 }

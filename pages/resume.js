@@ -35,10 +35,10 @@ const Resume = ()=> {
                     <section className='mb-xl'>
                         <h2 className={styles.h2 + ' mb-s'}>ABOUT</h2>
                         <p>
-                            Feranmi is a Frontend Engineer with experience in developing responsive, performant and
-                            accessible user interfaces. He is skilled in the latest web technologies including Javascript,
-                            Node.js, GraphQL, React, SCSS, and more. He is passionate about creating
-                            satisfying user experiences that are accessible to as many people as possible.
+                            I'm a Frontend Engineer with experience in developing responsive, performant and
+                            accessible user interfaces. I have a deep understanding of the Open Web Stack of technologies,
+                            and I'm passionate about creating satisfying user experiences that are accessible
+                            to as many people as possible.
                         </p>
                     </section>
 
@@ -48,9 +48,16 @@ const Resume = ()=> {
                         <h3 className={styles.h3 + ' mb-s'}>
                             SENIOR FRONTEND ENGINEER <br />
                             <small>
-                                <span className='italic'>Helicarrier</span>
+                                <span className='italic'>
+                                    <a href='https://helicarrier.studio'
+                                            target='_blank'
+                                            rel='noreferrer noopener'
+                                            className='color-unset hover-underline'>
+                                        Helicarrier
+                                    </a>
+                                </span>
                                 <span> | </span>
-                                <span>Nov 2021 – Present</span>
+                                <span>Nov 2021 &ndash; Present</span>
                             </small>
                         </h3>
                         <p className='mb-s'>
@@ -59,21 +66,52 @@ const Resume = ()=> {
                         </p>
                         <ul className='mb-l'>
                             <li>
-                                Conducted interviews and worked with the VP of Engineering
-                                to find the best talent to grow the Frontend team.
+                                Conducted code reviews, driving a high standard of code quality
                             </li>
                             <li>
-                                Conducted code reviews, driving a high standard of code quality
-                                for the Sendcash frontend team.
+                                Improved the frontend app's architecture with code splitting,
+                                asset preloading and eliminating unneeded dependencies to
+                                achieve great performance gains.
+                            </li>
+                            <li>
+                                ////
+                                Single handedly built (and re-engineered where necessary) React
+                                components and re-designed most of the pages, including public ones
+                                like the homepage, user auth, pricing, tutors listing and tutor
+                                profile pages.
+                                ////
+                            </li>
+                            <li>
+                                Pioneered and maintained internal documentaion of the frontend codebase.
+                            </li>
+                            <li>
+                                Evangelizing accessibility standards in product
+                            </li>
+                            <li>
+                                Coordinated a distributed team to develop and ship a new product
+                            </li>
+                            <li>
+                                Provided support (mentored?) to team mates
+                            </li>
+                            <li>
+                                Conducted interviews and worked with the VP of Engineering
+                                to find the best talent to grow the Frontend team.
                             </li>
                         </ul>
 
                         <h3 className={styles.h3 + ' mb-s'}>
                             FRONTEND ENGINEER <br />
                             <small>
-                                <span className='italic'>Helicarrier</span>
+                                <span className='italic'>
+                                    <a href='https://helicarrier.studio'
+                                            target='_blank'
+                                            rel='noreferrer noopener'
+                                            className='color-unset hover-underline'>
+                                        Helicarrier
+                                    </a>
+                                </span>
                                 <span> | </span>
-                                <span>Jan 2020 – Nov 2021 (2 Years)</span>
+                                <span>Jan 2020 &ndash; Nov 2021</span>
                             </small>
                         </h3>
                         <p className='mb-s'>
@@ -82,13 +120,21 @@ const Resume = ()=> {
                         </p>
                         <ul className='mb-l'>
                             <li>
-                                Identified areas for accessibility improvements
-                                in our web apps.
-                                Implemented and drove these improvements to completion.
+                                Conducted accessibility tests and refactored much of the codebase
+                                to implement necessary improvements
                             </li>
                             <li>
-                                Collaborated with the product team to scope new features,
-                                ensuring that we ship MVPs in the shortest possible time.
+                                Collaborated with peers and stakeholders in a fast-paced distributed team.
+                            </li>
+                            <li>
+                                Worked across multiple products with a varied tech stack that
+                                included React, React Native, Vue.js, Angular, Ionic, Node.js, EJS, and more.
+                            </li>
+                            <li>
+                                Developed hybrid mobile apps with Ionic and React Native.
+                            </li>
+                            <li>
+                                Wrote technical articles for the company blog
                             </li>
                         </ul>
 
@@ -97,36 +143,35 @@ const Resume = ()=> {
                             <small>
                                 <span className='italic'>Freelance</span>
                                 <span> | </span>
-                                <span>Jan 2019 – Jan 2020 (1 Year)</span>
+                                <span>Jan 2019 &ndash; Jan 2020</span>
                             </small>
                         </h3>
                         <p className='mb-s'>
-                            I worked as a freelance web developer,
-                            creating an online presence for small businesses with simple Jamstack websites.
+                            As a freelance web developer my goal was to create an online presence
+                            for small businesses, helping them expand their reach.
                         </p>
                         <ul>
                             <li>
-                                Effective communication with the client to understand the design and content
-                                requirements for a website.
+                                Communicating effectively with the client to scope out project requirements
                             </li>
                             <li>
-                                Created fully responsive layouts, ensuring that each page displayed perfectly across all
-                                modern devices with varying screen sizes.
+                                Created fully responsive layouts, ensuring a
+                                great viewing experience for both mobile and desktop users
                             </li>
                             <li>
-                                Wrote clean, readable code for easy maintenance and
-                                improvement in the future.
-                            </li>
-                            <li>
-                                Leveraged semantic markup to create accessible web pages.
+                                Used semantic markup to create accessible web pages
                             </li>
                             <li>
                                 Consumed third-party REST APIs to facilitate collection of data from users via web
-                                forms without a server-side.
+                                forms without a server-side
                             </li>
                             <li>
-                                Leveraged the Jamstack by serving prerendered static pages for improved load
-                                performance.
+                                Favored the Jamstack principle of prerendered static pages for improved load
+                                performance
+                            </li>
+                            <li>
+                                Worked with WordPress and the WooCommerce API to build a fully
+                                customized UI for an online store
                             </li>
                         </ul>
                     </section>
