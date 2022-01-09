@@ -27,13 +27,13 @@ const Resume = ()=> {
         <main key={'Main content'} className={styles['main-content']}>
             <div className={styles['inner-wrapper']}>
                 <section className={styles['main-section']}>
-                    <h1 className={styles.h1}>
+                    <h1 className={styles.h1 + ' mb-xl'}>
                         Feranmi Akinlade
                         <small>Senior Frontend Engineer</small>
                     </h1>
 
-                    <section>
-                        <h2 className={styles.h2}>ABOUT</h2>
+                    <section className='mb-xl'>
+                        <h2 className={styles.h2 + ' mb-s'}>ABOUT</h2>
                         <p>
                             Feranmi is a Frontend Engineer with experience in developing responsive, performant and
                             accessible user interfaces. He is skilled in the latest web technologies including Javascript,
@@ -43,20 +43,21 @@ const Resume = ()=> {
                     </section>
 
                     <section>
-                        <h2 className={styles.h2}>EXPERIENCE</h2>
+                        <h2 className={styles.h2 + ' mb pt'}>EXPERIENCE</h2>
 
-                        <h3 className={styles.h3}>
-                            Senior Frontend Engineer <br />
+                        <h3 className={styles.h3 + ' mb-s'}>
+                            SENIOR FRONTEND ENGINEER <br />
                             <small>
-                                <span className='d-block'>Helicarrier</span>
-                                <span className='color-dark-grey'>November 2021 - Present (3 months)</span>
+                                <span className='italic'>Helicarrier</span>
+                                <span> | </span>
+                                <span>Nov 2021 – Present</span>
                             </small>
                         </h3>
-                        <p>
+                        <p className='mb-s'>
                             Helicarrier is financially connecting Africans across the world
                             with cryptocurrency infrastructure.
                         </p>
-                        <ul>
+                        <ul className='mb-l'>
                             <li>
                                 Conducted interviews and worked with the VP of Engineering
                                 to find the best talent to grow the Frontend team.
@@ -67,18 +68,19 @@ const Resume = ()=> {
                             </li>
                         </ul>
 
-                        <h3 className={styles.h3}>
-                            Frontend Engineer <br />
+                        <h3 className={styles.h3 + ' mb-s'}>
+                            FRONTEND ENGINEER <br />
                             <small>
-                                <span className='d-block'>Helicarrier</span>
-                                <span className='color-dark-grey'>January 2020 - November 2021 (2 Years)</span>
+                                <span className='italic'>Helicarrier</span>
+                                <span> | </span>
+                                <span>Jan 2020 – Nov 2021 (2 Years)</span>
                             </small>
                         </h3>
-                        <p>
+                        <p className='mb-s'>
                             Helicarrier is financially connecting Africans across the world
                             with cryptocurrency infrastructure.
                         </p>
-                        <ul>
+                        <ul className='mb-l'>
                             <li>
                                 Identified areas for accessibility improvements
                                 in our web apps.
@@ -90,14 +92,15 @@ const Resume = ()=> {
                             </li>
                         </ul>
 
-                        <h3 className={styles.h3}>
-                            Web Developer <br />
+                        <h3 className={styles.h3 + ' mb-s'}>
+                            WEB DEVELOPER <br />
                             <small>
-                                <span className='d-block'>Independent Freelancer</span>
-                                <span className='color-dark-grey'>January 2019 - January 2020 (1 Year)</span>
+                                <span className='italic'>Freelance</span>
+                                <span> | </span>
+                                <span>Jan 2019 – Jan 2020 (1 Year)</span>
                             </small>
                         </h3>
-                        <p>
+                        <p className='mb-s'>
                             I worked as a freelance web developer,
                             creating an online presence for small businesses with simple Jamstack websites.
                         </p>
@@ -170,7 +173,7 @@ const Resume = ()=> {
                         </div>
                     </dl>
 
-                    <h2 className={styles.sidebar_h2}>SKILLS &amp; EXPERTISE</h2>
+                    <h2 className={styles.sidebar_h2}>SKILLS</h2>
                     <ul>
                         <li className='mb-xs'>
                             HTML
@@ -205,7 +208,7 @@ const Resume = ()=> {
                     <ul className='list-unstyled'>
                         <li>
                             <span className='d-block text-bold mb-xs'>
-                                National Diploma: Computer Science
+                                NATIONAL DIPLOMA: COMPUTER SCIENCE
                             </span>
                             <span>
                                 <span className='d-block mb-xs italic'>2015</span>
@@ -215,8 +218,8 @@ const Resume = ()=> {
                         </li>
                     </ul>
 
-                    <h2 className={styles.sidebar_h2}>Training</h2>
-                    <ul classNameX='list-noindent'>
+                    <h2 className={styles.sidebar_h2}>TRAINING</h2>
+                    <ul>
                         <li className='mb'>
                             <a href='https://help.pluralsight.com/help/google-africa-developer-scholarship-2021'
                                     target="_blank"

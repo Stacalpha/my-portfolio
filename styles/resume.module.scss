@@ -1,5 +1,6 @@
 .main-content {
     background-color: hsl(206, 4%, 34%);
+    font-size: 0.8rem;
 
     @media (orientation: landscape) {
         padding-top: 10vh;
@@ -45,13 +46,13 @@
     background-color: var(--bg-color);
     color: black;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.8);
+    p {
+    }
 }
 
 .sidebar {
     grid-area: sidebar;
     padding: 20px;
-
-    font-size: 0.8rem;
 
     a {
         color: inherit;
@@ -94,7 +95,7 @@
 }
 
 .h2 {
-    margin-top: 30px;
+    margin-top: 32px;
 }
 
 .sidebar_h2 {
@@ -105,5 +106,15 @@
 }
 
 .h3 {
-    margin-top: 20px;
+    margin-top: 16px;
+}
+
+.h1 {
+    font-size: 2rem;
+    line-height: 1;
+    small {
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-style: italic;
+    }
 }
