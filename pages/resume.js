@@ -32,7 +32,7 @@ const Resume = ()=> {
                         <small>Senior Frontend Engineer</small>
                     </h1>
 
-                    <section className='mb-xl'>
+                    <section>
                         <h2 className={styles.h2 + ' mb-s'}>ABOUT</h2>
                         <p>
                             I'm a Frontend Engineer with experience in developing responsive, performant and
@@ -43,7 +43,7 @@ const Resume = ()=> {
                     </section>
 
                     <section>
-                        <h2 className={styles.h2 + ' mb pt'}>EXPERIENCE</h2>
+                        <h2 className={styles.h2 + ' mb'}>EXPERIENCE</h2>
 
                         <h3 className={styles.h3 + ' mb-s'}>
                             SENIOR FRONTEND ENGINEER <br />
@@ -182,7 +182,9 @@ const Resume = ()=> {
                                 <MailIcon />
                             </dt>
                             <dd>
-                                <a href="mailto:hello@feranmi.dev">
+                                <a href="mailto:hello@feranmi.dev"
+                                        target='_blank'
+                                        rel='noreferrer noopener'>
                                     hello@feranmi.dev
                                 </a>
                             </dd>
@@ -195,7 +197,9 @@ const Resume = ()=> {
                                 <HyperlinkIcon />
                             </dt>
                             <dd>
-                                <a href="https://feranmi.dev">
+                                <a href="https://feranmi.dev"
+                                        target='_blank'
+                                        rel='noreferrer noopener'>
                                     https://feranmi.dev
                                 </a>
                             </dd>
@@ -322,7 +326,9 @@ const Resume = ()=> {
                                 </span>
                             </dt>
                             <dd>
-                                <a href="https://linkedin.com/in/uxFeranmi">
+                                <a href="https://linkedin.com/in/uxFeranmi"
+                                        target='_blank'
+                                        rel='noreferrer noopener'>
                                     @uxFeranmi
                                 </a>
                             </dd>
@@ -334,7 +340,9 @@ const Resume = ()=> {
                                 <GitHubIcon />
                             </dt>
                             <dd>
-                                <a href="https://github.com/uxFeranmi">
+                                <a href="https://github.com/uxFeranmi"
+                                        target='_blank'
+                                        rel='noreferrer noopener'>
                                     @uxFeranmi
                                 </a>
                             </dd>
@@ -352,7 +360,9 @@ const Resume = ()=> {
                                 </span>
                             </dt>
                             <dd>
-                                <a href="https://twitter.com/uxFeranmi">
+                                <a href="https://twitter.com/uxFeranmi"
+                                        target='_blank'
+                                        rel='noreferrer noopener'>
                                     @uxFeranmi
                                 </a>
                             </dd>
@@ -370,7 +380,9 @@ const Resume = ()=> {
                                 </span>
                             </dt>
                             <dd>
-                                <a href="https://instagram.com/feranmi.dev">
+                                <a href="https://instagram.com/feranmi.dev"
+                                        target='_blank'
+                                        rel='noreferrer noopener'>
                                     @feranmi.dev
                                 </a>
                             </dd>
