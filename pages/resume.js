@@ -35,10 +35,10 @@ const Resume = ()=> {
                     <section className='mb-xl'>
                         <h2 className={styles.h2 + ' mb-s'}>ABOUT</h2>
                         <p>
-                            Feranmi is a Frontend Engineer with experience in developing responsive, performant and
-                            accessible user interfaces. He is skilled in the latest web technologies including Javascript,
-                            Node.js, GraphQL, React, SCSS, and more. He is passionate about creating
-                            satisfying user experiences that are accessible to as many people as possible.
+                            I'm a Frontend Engineer with experience in developing responsive, performant and
+                            accessible user interfaces. I have a deep understanding of the Open Web Stack of technologies,
+                            and I'm passionate about creating satisfying user experiences that are accessible
+                            to as many people as possible.
                         </p>
                     </section>
 
@@ -48,47 +48,86 @@ const Resume = ()=> {
                         <h3 className={styles.h3 + ' mb-s'}>
                             SENIOR FRONTEND ENGINEER <br />
                             <small>
-                                <span className='italic'>Helicarrier</span>
+                                <span className='italic'>
+                                    <a href='https://helicarrier.studio'
+                                            target='_blank'
+                                            rel='noreferrer noopener'
+                                            className='color-unset hover-underline'>
+                                        Helicarrier
+                                    </a>
+                                </span>
                                 <span> | </span>
-                                <span>Nov 2021 – Present</span>
+                                <span>Nov 2021 &ndash; Present</span>
                             </small>
                         </h3>
                         <p className='mb-s'>
-                            Helicarrier is financially connecting Africans across the world
-                            with cryptocurrency infrastructure.
+                            As a Senior Engineer, I am leading the architecture and development
+                            of <a href='https://sendcash.africa'
+                                target='_blank'
+                                rel='noreferrer noopener'
+                                className='color-unset hover-underline fw-normal'
+                            >Sendcash</a>&mdash;a hybrid web and mobile consumer app for
+                            cryptocurrency-powered cross-border remittance.
                         </p>
                         <ul className='mb-l'>
-                            <li>
-                                Conducted interviews and worked with the VP of Engineering
-                                to find the best talent to grow the Frontend team.
+                            <li className='mb-xs'>
+                                Set up a frontend architecture optimized for high performance,
+                                with code splitting, asset preloading and server-side rendering
+                            </li>
+                            <li className='mb-xs'>
+                                Conducting code reviews, driving a high standard of code quality
+                                and user experience
+                            </li>
+                            <li className='mb-xs'>
+                                Pioneered and maintaining internal documentaion of the frontend codebase.
+                            </li>
+                            <li className='mb-xs'>
+                                Evangelizing accessibility standards in product
+                            </li>
+                            <li className='mb-xs'>
+                                Coordinating a distributed team to develop and ship new features
+                                in a timely manner
+                            </li>
+                            <li className='mb-xs'>
+                                Providing support and guidance to other team members
                             </li>
                             <li>
-                                Conducted code reviews, driving a high standard of code quality
-                                for the Sendcash frontend team.
+                                Conducted interviews and worked with the VP of Engineering
+                                to find the best talent to grow the Frontend team
                             </li>
                         </ul>
 
                         <h3 className={styles.h3 + ' mb-s'}>
                             FRONTEND ENGINEER <br />
                             <small>
-                                <span className='italic'>Helicarrier</span>
+                                <span className='italic'>
+                                    <a href='https://helicarrier.studio'
+                                            target='_blank'
+                                            rel='noreferrer noopener'
+                                            className='color-unset hover-underline'>
+                                        Helicarrier
+                                    </a>
+                                </span>
                                 <span> | </span>
-                                <span>Jan 2020 – Nov 2021 (2 Years)</span>
+                                <span>Jan 2020 &ndash; Nov 2021</span>
                             </small>
                         </h3>
-                        <p className='mb-s'>
-                            Helicarrier is financially connecting Africans across the world
-                            with cryptocurrency infrastructure.
-                        </p>
                         <ul className='mb-l'>
-                            <li>
-                                Identified areas for accessibility improvements
-                                in our web apps.
-                                Implemented and drove these improvements to completion.
+                            <li className='mb-xs'>
+                                Worked across multiple products with a varied tech stack that
+                                included React, React Native, Vue.js, Angular, Ionic, Node.js, EJS, and more.
+                            </li>
+                            <li className='mb-xs'>
+                                Conducted accessibility tests and implement necessary improvements
+                            </li>
+                            <li className='mb-xs'>
+                                Collaborated with peers and stakeholders in a fast-paced distributed team.
+                            </li>
+                            <li className='mb-xs'>
+                                Developed hybrid mobile apps with Ionic and React Native.
                             </li>
                             <li>
-                                Collaborated with the product team to scope new features,
-                                ensuring that we ship MVPs in the shortest possible time.
+                                Wrote technical articles for the company blog
                             </li>
                         </ul>
 
@@ -97,36 +136,35 @@ const Resume = ()=> {
                             <small>
                                 <span className='italic'>Freelance</span>
                                 <span> | </span>
-                                <span>Jan 2019 – Jan 2020 (1 Year)</span>
+                                <span>Jan 2019 &ndash; Jan 2020</span>
                             </small>
                         </h3>
                         <p className='mb-s'>
-                            I worked as a freelance web developer,
-                            creating an online presence for small businesses with simple Jamstack websites.
+                            As a freelance web developer my goal was to create an online presence
+                            for small businesses, helping them expand their reach.
                         </p>
                         <ul>
-                            <li>
-                                Effective communication with the client to understand the design and content
-                                requirements for a website.
+                            <li className='mb-xs'>
+                                Communicating effectively with the client to scope out project requirements
                             </li>
-                            <li>
-                                Created fully responsive layouts, ensuring that each page displayed perfectly across all
-                                modern devices with varying screen sizes.
+                            <li className='mb-xs'>
+                                Created fully responsive layouts, ensuring a
+                                great viewing experience for both mobile and desktop users
                             </li>
-                            <li>
-                                Wrote clean, readable code for easy maintenance and
-                                improvement in the future.
+                            <li className='mb-xs'>
+                                Used semantic markup to create accessible web pages
                             </li>
-                            <li>
-                                Leveraged semantic markup to create accessible web pages.
-                            </li>
-                            <li>
+                            <li className='mb-xs'>
                                 Consumed third-party REST APIs to facilitate collection of data from users via web
-                                forms without a server-side.
+                                forms without a server-side
                             </li>
-                            <li>
-                                Leveraged the Jamstack by serving prerendered static pages for improved load
-                                performance.
+                            <li className='mb-xs'>
+                                Favored the Jamstack principle of prerendered static pages for improved load
+                                performance
+                            </li>
+                            <li className='mb-xs'>
+                                Worked with WordPress and the WooCommerce API to build a fully
+                                customized UI for an online store
                             </li>
                         </ul>
                     </section>
